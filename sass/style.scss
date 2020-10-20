@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import 'oro';
+@import 'colors';
+
+html {
+    scroll-behavior: smooth;
+}
+
+/******************************************************************************MENU***************************************************************************/
+
+#header{
+
+    .nav1{
+        width: 15%;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        z-index: 16;    
+        padding: 0px 10px;
+        background-color: black;
+        a{
+            width: 100%;
+            height: 100%;
+            padding: 0px 0px;
+            margin: 0px 0px;
+            top: 0;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+    }
+    .nav2{
+        width: 70%;
+        height: 100px;
+        position: fixed;
+        left: 15%;
+        background-image: $gradienteOne;
+        /* background-image: linear-gradient(to right, black , #c4c4c4); */
+        top: 0;
+        z-index: 16;
+
+        .dropdown-item.active, .dropdown-item:active{
+            color: #fff;
+            text-decoration: none;
+            background-image: linear-gradient(to right,  #000000 , #ffff00);
+            /* background-color: #007bff; */
+        }
+
+    }
+
+    .nav3{
+        /*border: 1px solid rgb(212, 226, 12);*/
+        width: 15%;
+        height: 100px;
+        position: fixed;
+        right: 0;
+        background-image: $gradienteTwo;
+        /* background-image: linear-gradient(to right, #c4c4c4, #ffffff); */
+        /*top: 0;*/
+        z-index: 16;
+        top: 0;
+        ul{
+            li{
+                a{
+                    color: black !important;
+                }
+            }
+        }
+    }
+
+
+
+    .nav-link-black:hover{
+        color: white !important;
+    }
+
+    .blackBorder{
+        border-radius: 6px;
+        border: 1px solid black;
+    }
+
+    .dropdown-item.active, .dropdown-item:active {
+        color: #fff;
+        text-decoration: none;
+        background-image: $gradienteFull;
+        /* background-color: #007bff; */
+      }
+}
+
+
+/******************************************************************************INTROIMG***************************************************************************/
+#introImg{
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+    height: 800px;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/******************************************************************************GENERALES*************************************************************************/
+
+    /*MODAL*/
+.saint-border{
+    border: 1px solid gold;
+}    
+.saint-button{
+    border-radius: 6px;
+    border: 1px solid gold;
+    color: gold;
+    width: 150px;
+    height: 70px;
+}
+.saint-button:hover{
+    background-color: #d4d400;
+}
+
+.saint-border2{
+    border: 1px solid rgb(255, 0, 221);
+    height: 1010px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}    
+.saint-button2{
+    border-radius: 6px;
+    border: 1px solid rgb(255, 0, 221);
+    color: rgb(255, 0, 221);
+    width: 150px;
+    height: 70px;
+}
+.saint-button2:hover{
+    background-color: rgb(212, 130, 201);
+}
+
+
+
+
+    /*ESTILOS GENERALES*/
+.saint-gradient{      
+    background: $gradienteFull;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.saint-titulos{
+    text-align: center;
+    padding: 10% 0%;
+}
+
+hr {
+    background: $gradienteFull;
+    height: 2px;
+}
+
+
+/******************************************************************************PLATA*****************************************************************************/
+
+
+/******************************************************************************ORO*****************************************************************************/
+
+.caballeros-oro{
+    width: 100%;
+}
+.saint-button3{
+    text-decoration: none;
+    border: none;
+    padding: 9px 0;
+    background-image: linear-gradient(to right, black , rgb(192, 167, 23));
+    color:#619FE8;
+    outline: none;
+    width: 100%;
+}
+
+.caja-oro {
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+/******************************************************************************ASGARD*****************************************************************************/
+
+.caja-asgard{
+    .asgard-1{
+        /*border: 1px solid gold;*/
+        margin: 0;
+        padding: 0;
+        .col-md-12{
+            margin: 0;
+            padding: 0;
+            /*width: 100%;*/
+            /*height: 100%;*/
+            video{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+    }
+    .asgard-2{
+        margin: 0;
+        padding: 0;
+        .col-md-3{
+            /*border: 1px solid gold;*/
+            .asgard-warriors{
+                height: 80%;
+                img{
+                    height: 100%;
+                    filter: grayscale(100%);
+                }
+                & img:hover{
+                    filter: grayscale(0%);
+                }
+            }
+        .card-body{
+            p{
+                color: gold;
+                text-align: center;
+                border: 1px solid gold;
+                /*border-radius: 25px;*/
+                background-color: black;
+                padding: 5px;
+            }
+        }
+        }
+    }
+    .asgard-3{
+        margin: 0;
+        padding: 0;
+        .col-md-3{
+            /*border: 1px solid gold;*/
+            .asgard-warriors{
+                height: 80%;
+                img{
+                    height: 100%;
+                    filter: grayscale(100%);
+                }
+                & img:hover{
+                    filter: grayscale(0%);
+                }
+            }
+        }
+        .card-body{
+            p{
+                color: gold;
+                text-align: center;
+                border: 1px solid gold;
+               /* border-radius: 25px;*/
+                background-color: black;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+
+/******************************************************************************FOOTER*****************************************************************************/
+
+
+/******************************************************************************MEDIA QUERIES*****************************************************************************/
+/*FALTA ARREGLAR LAS MEDIAQUERIES*/
+/*PHONE*/ 
+
+@media only screen and (max-width:420px) {
+
+    .nav1{
+        width: 100%;
+        height: 100px;
+       /* border: 1px solid red;*/
+       /* position: fixed;*/
+        /*top: 0;*/
+        /*z-index: 2;*/
+        position: static;
+        
+    }
+    
+    .nav1 a{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .nav2{
+        /*border: 1px solid rgb(212, 226, 12);*/
+        width: 100%;
+       /* position: fixed;*/
+       /* right: 0;*/
+        background-image: linear-gradient(to right, black , rgb(192, 167, 23));
+        /*top: 0;*/
+      /*  z-index: 2;*/
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      position: static;
+        flex-wrap: wrap;
+       
+    }
+    .saint-hide2{
+        visibility: hidden;
+    }
+    .nav2{
+        /*border: 1px solid rgb(212, 226, 12);*/
+        width: 100%;
+        height: 200px;
+        /*position: fixed;*/
+        /*left: 15%;*/
+        background-image: linear-gradient(to right, black , #d4d400);
+        /* background-image: linear-gradient(to right, black , #c4c4c4); */
+       /* top: 0;*/
+        /*z-index: 2000;*/
+    }
+
+    .car-intro{
+        /*position: relative;*/
+        margin-top: 0px;
+        /*width: 100%;*/
+        height: 200px;
+    }
+    .car-intro img{
+      /*  width: 100%;*/
+       /* height: 100%;*/
+    } 
+
+}
+
+
+/*Tablet Style*/
+
+@media only screen and (min-width:401px) and (max-width: 960px){
+
+    /*En tablet el diseño se salvó */
+
+    .saint-hide2{
+        visibility: hidden;
+    }
+
+    .nav2{
+        /*border: 1px solid rgb(212, 226, 12);*/
+        width: 85%;
+        /* height: 100px;
+        position: fixed;
+        left: 15%;
+        background-image: linear-gradient(to right, black , #d4d400);
+        /* background-image: linear-gradient(to right, black , #c4c4c4); */
+        top: 0;
+        z-index: 16; 
+    }
+
+
+}
+
+/*Desktop Style*/
+
+@media only screen and (min-width:961px){
+
+    
+    .saint-hide{
+        visibility: hidden;
+    }
+
+
+}
+/*GO*/
+/*npm install -D node-sass nodemon*/
+/*sass --watch sass/style.scss css/style.css*/
+
+/**/
+

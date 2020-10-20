@@ -1,0 +1,410 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*core colors*/
+#oro .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vmin;
+  overflow: hidden;
+  transform: skew(5deg);
+  width: 100%;
+  background-color: transparent;
+  margin-top: 0%;
+  padding-top: 0%;
+  z-index: 1;
+  position: relative;
+  margin-top: -400px;
+}
+#oro .container .card {
+  flex: 1;
+  transition: all 1s ease-in-out;
+  height: 75vmin;
+  position: relative;
+}
+#oro .container .card .card__head {
+  color: black;
+  background: #bdae59;
+  padding: 0.5em;
+  transform: rotate(-90deg);
+  transform-origin: 0% 0%;
+  transition: all 0.5s ease-in-out;
+  min-width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1em;
+  white-space: nowrap;
+  width: 300px;
+}
+#oro .container .card:hover {
+  flex-grow: 10;
+}
+#oro .container .card:hover img {
+  filter: grayscale(0);
+}
+#oro .container .card:hover .card__head {
+  text-align: center;
+  top: calc(100% - 2em);
+  color: gold;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  transform: rotate(0deg) skew(-5deg);
+}
+#oro .container .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+  filter: grayscale(100%);
+}
+#oro .container .card:not(:nth-child(5)) {
+  margin: -0.2em;
+}
+
+#oro .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: black;*/
+}
+#oro .casas12 {
+  background-color: black;
+  z-index: 2;
+  height: 800px;
+}
+#oro .casas12 h1 {
+  background-color: black;
+  height: 90%;
+  color: gold;
+}
+
+/*core colors*/
+html {
+  scroll-behavior: smooth;
+}
+
+/******************************************************************************MENU***************************************************************************/
+#header .nav1 {
+  width: 15%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 16;
+  padding: 0px 10px;
+  background-color: black;
+}
+#header .nav1 a {
+  width: 100%;
+  height: 100%;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  top: 0;
+}
+#header .nav1 a img {
+  width: 100%;
+  height: 100%;
+}
+#header .nav2 {
+  width: 70%;
+  height: 100px;
+  position: fixed;
+  left: 15%;
+  background-image: linear-gradient(to right, black, #d4d400);
+  /* background-image: linear-gradient(to right, black , #c4c4c4); */
+  top: 0;
+  z-index: 16;
+}
+#header .nav2 .dropdown-item.active, #header .nav2 .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #000000, #ffff00);
+  /* background-color: #007bff; */
+}
+#header .nav3 {
+  /*border: 1px solid rgb(212, 226, 12);*/
+  width: 15%;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  background-image: linear-gradient(to right, #d4d400, #ffff00);
+  /* background-image: linear-gradient(to right, #c4c4c4, #ffffff); */
+  /*top: 0;*/
+  z-index: 16;
+  top: 0;
+}
+#header .nav3 ul li a {
+  color: black !important;
+}
+#header .nav-link-black:hover {
+  color: white !important;
+}
+#header .blackBorder {
+  border-radius: 6px;
+  border: 1px solid black;
+}
+#header .dropdown-item.active, #header .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient(to right, black, #ffff00);
+  /* background-color: #007bff; */
+}
+
+/******************************************************************************INTROIMG***************************************************************************/
+#introImg {
+  position: relative;
+  margin-top: 70px;
+  width: 100%;
+  height: 800px;
+}
+#introImg img {
+  width: 100%;
+  height: 100%;
+}
+
+/******************************************************************************GENERALES*************************************************************************/
+/*MODAL*/
+.saint-border {
+  border: 1px solid gold;
+}
+
+.saint-button {
+  border-radius: 6px;
+  border: 1px solid gold;
+  color: gold;
+  width: 150px;
+  height: 70px;
+}
+
+.saint-button:hover {
+  background-color: #d4d400;
+}
+
+.saint-border2 {
+  border: 1px solid #ff00dd;
+  height: 1010px;
+}
+.saint-border2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.saint-button2 {
+  border-radius: 6px;
+  border: 1px solid #ff00dd;
+  color: #ff00dd;
+  width: 150px;
+  height: 70px;
+}
+
+.saint-button2:hover {
+  background-color: #d482c9;
+}
+
+/*ESTILOS GENERALES*/
+.saint-gradient {
+  background: linear-gradient(to right, black, #ffff00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.saint-titulos {
+  text-align: center;
+  padding: 10% 0%;
+}
+
+hr {
+  background: linear-gradient(to right, black, #ffff00);
+  height: 2px;
+}
+
+/******************************************************************************PLATA*****************************************************************************/
+/******************************************************************************ORO*****************************************************************************/
+.caballeros-oro {
+  width: 100%;
+}
+
+.saint-button3 {
+  text-decoration: none;
+  border: none;
+  padding: 9px 0;
+  background-image: linear-gradient(to right, black, #c0a717);
+  color: #619FE8;
+  outline: none;
+  width: 100%;
+}
+
+.caja-oro {
+  width: 100%;
+  border: 1px solid red;
+}
+
+/******************************************************************************ASGARD*****************************************************************************/
+.caja-asgard .asgard-1 {
+  /*border: 1px solid gold;*/
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-1 .col-md-12 {
+  margin: 0;
+  padding: 0;
+  /*width: 100%;*/
+  /*height: 100%;*/
+}
+.caja-asgard .asgard-1 .col-md-12 video {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.caja-asgard .asgard-2 {
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-2 .col-md-3 {
+  /*border: 1px solid gold;*/
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors {
+  height: 80%;
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img {
+  height: 100%;
+  filter: grayscale(100%);
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img:hover {
+  filter: grayscale(0%);
+}
+.caja-asgard .asgard-2 .col-md-3 .card-body p {
+  color: gold;
+  text-align: center;
+  border: 1px solid gold;
+  /*border-radius: 25px;*/
+  background-color: black;
+  padding: 5px;
+}
+.caja-asgard .asgard-3 {
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-3 .col-md-3 {
+  /*border: 1px solid gold;*/
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors {
+  height: 80%;
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img {
+  height: 100%;
+  filter: grayscale(100%);
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img:hover {
+  filter: grayscale(0%);
+}
+.caja-asgard .asgard-3 .card-body p {
+  color: gold;
+  text-align: center;
+  border: 1px solid gold;
+  /* border-radius: 25px;*/
+  background-color: black;
+  padding: 5px;
+}
+
+/******************************************************************************FOOTER*****************************************************************************/
+/******************************************************************************MEDIA QUERIES*****************************************************************************/
+/*FALTA ARREGLAR LAS MEDIAQUERIES*/
+/*PHONE*/
+@media only screen and (max-width: 420px) {
+  .nav1 {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red;*/
+    /* position: fixed;*/
+    /*top: 0;*/
+    /*z-index: 2;*/
+    position: static;
+  }
+
+  .nav1 a {
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav2 {
+    /*border: 1px solid rgb(212, 226, 12);*/
+    width: 100%;
+    /* position: fixed;*/
+    /* right: 0;*/
+    background-image: linear-gradient(to right, black, #c0a717);
+    /*top: 0;*/
+    /*  z-index: 2;*/
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    flex-wrap: wrap;
+  }
+
+  .saint-hide2 {
+    visibility: hidden;
+  }
+
+  .nav2 {
+    /*border: 1px solid rgb(212, 226, 12);*/
+    width: 100%;
+    height: 200px;
+    /*position: fixed;*/
+    /*left: 15%;*/
+    background-image: linear-gradient(to right, black, #d4d400);
+    /* background-image: linear-gradient(to right, black , #c4c4c4); */
+    /* top: 0;*/
+    /*z-index: 2000;*/
+  }
+
+  .car-intro {
+    /*position: relative;*/
+    margin-top: 0px;
+    /*width: 100%;*/
+    height: 200px;
+  }
+
+  .car-intro img {
+    /*  width: 100%;*/
+    /* height: 100%;*/
+  }
+}
+/*Tablet Style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  /*En tablet el diseño se salvó */
+  .saint-hide2 {
+    visibility: hidden;
+  }
+
+  .nav2 {
+    /*border: 1px solid rgb(212, 226, 12);*/
+    width: 85%;
+    /* height: 100px;
+    position: fixed;
+    left: 15%;
+    background-image: linear-gradient(to right, black , #d4d400);
+    /* background-image: linear-gradient(to right, black , #c4c4c4); */
+    top: 0;
+    z-index: 16;
+  }
+}
+/*Desktop Style*/
+@media only screen and (min-width: 961px) {
+  .saint-hide {
+    visibility: hidden;
+  }
+}
+/*GO*/
+/*npm install -D node-sass nodemon*/
+/*sass --watch sass/style.scss css/style.css*/
+/**/
+
+/*# sourceMappingURL=style.css.map */
