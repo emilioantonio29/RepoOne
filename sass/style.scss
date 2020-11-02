@@ -7,6 +7,11 @@
 
 @import 'oro';
 @import 'colors';
+@import 'redes';
+@import 'bronce';
+@import 'plata';
+@import 'genericos';
+
 
 html {
     scroll-behavior: smooth;
@@ -38,7 +43,7 @@ html {
 
     }
     .nav2{
-        width: 70%;
+        width: 65%;
         height: 100px;
         position: fixed;
         left: 15%;
@@ -58,7 +63,7 @@ html {
 
     .nav3{
         /*border: 1px solid rgb(212, 226, 12);*/
-        width: 15%;
+        width: 20%;
         height: 100px;
         position: fixed;
         right: 0;
@@ -98,76 +103,26 @@ html {
 
 /******************************************************************************INTROIMG***************************************************************************/
 #introImg{
-    position: relative;
-    margin-top: 70px;
-    width: 100%;
-    height: 800px;
+    // position: relative;
+    // margin-top: 70px;
+    // width: 100%;
+    // height: 700px;
 
     img{
         width: 100%;
-        height: 100%;
+        // // height: 100%;
     }
 }
 
-/******************************************************************************GENERALES*************************************************************************/
 
-    /*MODAL*/
-.saint-border{
-    border: 1px solid gold;
-}    
-.saint-button{
-    border-radius: 6px;
-    border: 1px solid gold;
-    color: gold;
-    width: 150px;
-    height: 70px;
+
+
+/******************************************************************************INTRO*****************************************************************************/
+
+#intro{
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
-.saint-button:hover{
-    background-color: #d4d400;
-}
-
-.saint-border2{
-    border: 1px solid rgb(255, 0, 221);
-    height: 1010px;
-    img{
-        width: 100%;
-        height: 100%;
-    }
-}    
-.saint-button2{
-    border-radius: 6px;
-    border: 1px solid rgb(255, 0, 221);
-    color: rgb(255, 0, 221);
-    width: 150px;
-    height: 70px;
-}
-.saint-button2:hover{
-    background-color: rgb(212, 130, 201);
-}
-
-
-
-
-    /*ESTILOS GENERALES*/
-.saint-gradient{      
-    background: $gradienteFull;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-.saint-titulos{
-    text-align: center;
-    padding: 10% 0%;
-}
-
-hr {
-    background: $gradienteFull;
-    height: 2px;
-}
-
-
-/******************************************************************************PLATA*****************************************************************************/
-
 
 /******************************************************************************ORO*****************************************************************************/
 

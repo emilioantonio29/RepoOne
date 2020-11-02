@@ -37,7 +37,7 @@
       }
   
       &:hover {
-        flex-grow: 10;
+        flex-grow: 8;
         img {
           filter: grayscale(0);
         }
@@ -73,7 +73,7 @@
       .casas12{
           background-color: black;
           z-index: 2;
-          height: 800px;
+          height: 500px;
           h1{
             background-color: black;
             height: 90%;
