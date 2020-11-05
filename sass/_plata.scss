@@ -3,7 +3,7 @@
 
 #plata {
       background-color: rgb(243, 243, 243);
-      
+      position: static;
       h1{
         color: #fff;
         text-align: center;
@@ -44,6 +44,10 @@
     max-width: 25%;
     padding: 0 4px;
     // height: 300px;
+  }
+
+  .column-f{
+  
   }
   
   .column img {
@@ -88,7 +92,11 @@
 }
 
 .silver-height{
-  height: 850px !important;
+    // height: 850px !important;
+    width: 100% !important;
+    padding: 0;
+    margin-left: 0;
+  
 }
 
 }

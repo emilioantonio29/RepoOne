@@ -12,8 +12,8 @@
     margin-top: 0%;
     padding-top: 0%;
     z-index: 1;
-    position: relative;
-    margin-top: -400px;
+    position: static;
+    // margin-top: -400px;
     .card {
       flex: 1;
       transition: all 1s ease-in-out;
@@ -64,6 +64,7 @@
   }
   
   #oro {
+    position: static;
       .center{
             display: flex;
             justify-content: center;
