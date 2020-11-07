@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +17,7 @@
   margin-top: 0%;
   padding-top: 0%;
   z-index: 1;
-  position: relative;
-  margin-top: -400px;
+  position: static;
 }
 #oro .container .card {
   flex: 1;
@@ -68,6 +66,9 @@
   margin: -0.2em;
 }
 
+#oro {
+  position: static;
+}
 #oro .center {
   display: flex;
   justify-content: center;
@@ -86,34 +87,27 @@
 }
 
 /*core colors*/
-.social-menu ul {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0;
-  margin: 0;
-  display: flex;
+.social-menu {
+  width: 100%;
 }
 
-.social-menu ul li {
+.social-menu li {
   list-style: none;
   margin: 0 10px;
 }
 
-.social-menu ul li .fa {
+.social-menu li .fa {
   color: #000000;
   font-size: 25px;
   line-height: 50px;
   transition: 0.5s;
 }
 
-.social-menu ul li .fa:hover {
+.social-menu li .fa:hover {
   color: gold;
 }
 
-.social-menu ul li a {
-  position: relative;
+.social-menu li a {
   display: block;
   width: 50px;
   height: 50px;
@@ -125,23 +119,23 @@
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
 
-.social-menu ul li a:hover {
+.social-menu li a:hover {
   transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
 
-.social-menu ul li:nth-child(1) a:hover {
+.social-menu li:nth-child(1) a:hover {
   background-color: black;
 }
 
-.social-menu ul li:nth-child(2) a:hover {
+.social-menu li:nth-child(2) a:hover {
   background-color: black;
 }
 
-.social-menu ul li:nth-child(3) a:hover {
+.social-menu li:nth-child(3) a:hover {
   background-color: black;
 }
 
-.social-menu ul li:nth-child(4) a:hover {
+.social-menu li:nth-child(4) a:hover {
   background-color: black;
 }
 
@@ -159,6 +153,7 @@
 /*core colors*/
 #plata {
   background-color: #f3f3f3;
+  position: static;
 }
 #plata h1 {
   color: #fff;
@@ -231,7 +226,9 @@
   }
 }
 #plata .silver-height {
-  height: 850px !important;
+  width: 100% !important;
+  padding: 0;
+  margin-left: 0;
 }
 
 /*core colors*/
@@ -297,10 +294,21 @@ html {
 }
 
 /******************************************************************************MENU***************************************************************************/
+#header .navbar {
+  background: linear-gradient(to right, black, gold);
+  display: flex !important;
+  position: fixed;
+  width: 100%;
+  z-index: 16;
+}
+#header .navbar img {
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+}
 #header .nav1 {
   width: 15%;
   height: 100px;
-  position: fixed;
   top: 0;
   z-index: 16;
   padding: 0px 10px;
@@ -320,7 +328,6 @@ html {
 #header .nav2 {
   width: 65%;
   height: 100px;
-  position: fixed;
   left: 15%;
   background-image: linear-gradient(to right, black, #d4d400);
   /* background-image: linear-gradient(to right, black , #c4c4c4); */
@@ -337,7 +344,6 @@ html {
   /*border: 1px solid rgb(212, 226, 12);*/
   width: 20%;
   height: 100px;
-  position: fixed;
   right: 0;
   background-image: linear-gradient(to right, #d4d400, #ffff00);
   /* background-image: linear-gradient(to right, #c4c4c4, #ffffff); */
@@ -394,6 +400,27 @@ html {
 }
 
 /******************************************************************************ASGARD*****************************************************************************/
+/*11-04-2020 cambios finales para entrega de proyecto*/
+#asgard .videoAsgard {
+  position: relative;
+}
+#asgard .videoAsgard .videoAsgard1 {
+  width: 100%;
+}
+#asgard .videoAsgard .videoAsgard1 video {
+  width: 100%;
+}
+#asgard .videoAsgard .text-block {
+  position: absolute;
+  top: 45%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .caja-asgard .asgard-1 {
   /*border: 1px solid gold;*/
   margin: 0;
@@ -402,14 +429,13 @@ html {
 .caja-asgard .asgard-1 .col-md-12 {
   margin: 0;
   padding: 0;
-  /*width: 100%;*/
+  width: 100% !important;
   /*height: 100%;*/
 }
 .caja-asgard .asgard-1 .col-md-12 video {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
 }
 .caja-asgard .asgard-2 {
   margin: 0;
@@ -466,93 +492,11 @@ html {
 /******************************************************************************MEDIA QUERIES*****************************************************************************/
 /*FALTA ARREGLAR LAS MEDIAQUERIES*/
 /*PHONE*/
-@media only screen and (max-width: 420px) {
-  .nav1 {
-    width: 100%;
-    height: 100px;
-    /* border: 1px solid red;*/
-    /* position: fixed;*/
-    /*top: 0;*/
-    /*z-index: 2;*/
-    position: static;
-  }
-
-  .nav1 a {
-    width: 100%;
-    height: 100%;
-  }
-
-  .nav2 {
-    /*border: 1px solid rgb(212, 226, 12);*/
-    width: 100%;
-    /* position: fixed;*/
-    /* right: 0;*/
-    background-image: linear-gradient(to right, black, #c0a717);
-    /*top: 0;*/
-    /*  z-index: 2;*/
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    position: static;
-    flex-wrap: wrap;
-  }
-
-  .saint-hide2 {
-    visibility: hidden;
-  }
-
-  .nav2 {
-    /*border: 1px solid rgb(212, 226, 12);*/
-    width: 100%;
-    height: 200px;
-    /*position: fixed;*/
-    /*left: 15%;*/
-    background-image: linear-gradient(to right, black, #d4d400);
-    /* background-image: linear-gradient(to right, black , #c4c4c4); */
-    /* top: 0;*/
-    /*z-index: 2000;*/
-  }
-
-  .car-intro {
-    /*position: relative;*/
-    margin-top: 0px;
-    /*width: 100%;*/
-    height: 200px;
-  }
-
-  .car-intro img {
-    /*  width: 100%;*/
-    /* height: 100%;*/
-  }
-}
 /*Tablet Style*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  /*En tablet el diseño se salvó */
-  .saint-hide2 {
-    visibility: hidden;
-  }
-
-  .nav2 {
-    /*border: 1px solid rgb(212, 226, 12);*/
-    width: 85%;
-    /* height: 100px;
-    position: fixed;
-    left: 15%;
-    background-image: linear-gradient(to right, black , #d4d400);
-    /* background-image: linear-gradient(to right, black , #c4c4c4); */
-    top: 0;
-    z-index: 16;
-  }
-}
 /*Desktop Style*/
-@media only screen and (min-width: 961px) {
-  .saint-hide {
-    visibility: hidden;
-  }
-}
 /*GO*/
 /*npm install -D node-sass nodemon*/
 /*sass --watch sass/style.scss css/style.css*/
-/**/
+/*1*/
 
 /*# sourceMappingURL=style.css.map */
