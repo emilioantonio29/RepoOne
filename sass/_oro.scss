@@ -64,6 +64,7 @@
   }
   
   #oro {
+    background-color: black;
     position: static;
       .center{
             display: flex;
@@ -83,6 +84,21 @@
 
         
       }
+      h1{
+        color: gold;
+        padding: 15px 0px;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow1 1s ease-in-out infinite alternate;
+      }
   }
   
-
+  @-webkit-keyframes glow1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px rgb(255, 255, 255), 0 0 30px #3a3a3a, 0 0 40px #3a3a3a, 0 0 50px #3a3a3a, 0 0 60px #3a3a3a, 0 0 70px #3a3a3a;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000;
+    }
+  }
