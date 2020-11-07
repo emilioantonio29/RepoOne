@@ -8,8 +8,80 @@
 
 @media only screen and (max-width:420px) {
 
+    .social-menu li .fa {/*cambia el color de las redes en mobile para que se vean*/
+        color: gold;
+      }
+      .social-menu li a {
+        background-color: black;
+    }
 
 
+    .caja-asgard{/*arregla un margen de asgard que se rompe en mobile*/
+        margin-top: 50px;
+    }
+
+    #oro .container {/*arreglo para seccion oro mobile*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5vmin;
+        overflow: hidden;
+        transform: skew(2deg);
+        width: 100%;
+        background-color: transparent;
+        margin-top: 0%;
+        padding-top: 0%;
+        z-index: 1;
+        position: static;
+        // margin-top: -400px;
+        .card {
+          flex: 1;
+          transition: all 1s ease-in-out;
+          height: 75vmin;
+          position: relative;
+          .card__head {
+            // color: black;
+            background: none;
+            padding: 10em;
+            transform: rotate(-90deg);
+            transform-origin: 0% 0%;
+            transition: all 0.5s ease-in-out;
+            min-width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 1em;
+            white-space: nowrap;
+            width: 900px !important;
+          }
+      
+          &:hover {
+            flex-grow: 8;
+            img {
+            //   filter: grayscale(0);
+            }
+            .card__head {
+            //   text-align: center;
+            //   top: calc(100% - 2em);
+            color: gold;
+            background: none;
+            //   font-size: 2em;
+            //   transform: rotate(0deg) skew(-5deg);
+            }
+          }
+          img {
+            // width: 100%;
+            // height: 100%;
+            // // object-fit: cover;
+            // transition: all 1s ease-in-out;
+            // filter: grayscale(100%);
+          }
+          &:not(:nth-child(5)) {
+            // margin: -0.2em;
+          }
+        }
+      }
 }
 
 
@@ -17,8 +89,16 @@
 
 @media only screen and (min-width:401px) and (max-width: 960px){
 
+    .social-menu li .fa {/*cambia el color de las redes en mobile para que se vean*/
+        color: gold;
+      }
+      .social-menu li a {
+        background-color: black;
+      }
 
-
+      .caja-asgard{/*arregla un margen de asgard que se rompe en mobile*/
+        margin-top: 50px;
+    }
 
 }
 
