@@ -13,6 +13,7 @@
 @import 'genericos';
 
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -21,10 +22,32 @@ html {
 
 #header{
 
+    .navbar{
+        // background: linear-gradient(to right, black, black 0%, black 0%, gold   100%); 
+        background: linear-gradient(to right, black, gold);
+        // border: 1px solid pink;
+        display: flex !important;
+        position: fixed;
+        width: 100%;
+        z-index: 16;   
+    }
+    .navbar-nav{
+        // border: 1px solid red;
+    }
+
+
+    
+    .navbar img{
+        margin: 0px;
+        padding: 0px;
+        height: 100px;
+        
+    }
+
     .nav1{
         width: 15%;
         height: 100px;
-        position: fixed;
+        // position: fixed;
         top: 0;
         z-index: 16;    
         padding: 0px 10px;
@@ -45,7 +68,7 @@ html {
     .nav2{
         width: 65%;
         height: 100px;
-        position: fixed;
+        // position: fixed;
         left: 15%;
         background-image: $gradienteOne;
         /* background-image: linear-gradient(to right, black , #c4c4c4); */
@@ -65,7 +88,7 @@ html {
         /*border: 1px solid rgb(212, 226, 12);*/
         width: 20%;
         height: 100px;
-        position: fixed;
+        // position: fixed;
         right: 0;
         background-image: $gradienteTwo;
         /* background-image: linear-gradient(to right, #c4c4c4, #ffffff); */
@@ -264,63 +287,7 @@ html {
 
 @media only screen and (max-width:420px) {
 
-    .nav1{
-        width: 100%;
-        height: 100px;
-       /* border: 1px solid red;*/
-       /* position: fixed;*/
-        /*top: 0;*/
-        /*z-index: 2;*/
-        position: static;
-        
-    }
-    
-    .nav1 a{
-        width: 100%;
-        height: 100%;
-    }
-    
-    
-    .nav2{
-        /*border: 1px solid rgb(212, 226, 12);*/
-        width: 100%;
-       /* position: fixed;*/
-       /* right: 0;*/
-        background-image: linear-gradient(to right, black , rgb(192, 167, 23));
-        /*top: 0;*/
-      /*  z-index: 2;*/
-      height: 100px;
-      display: flex;
-      flex-direction: row;
-      position: static;
-        flex-wrap: wrap;
-       
-    }
-    .saint-hide2{
-        visibility: hidden;
-    }
-    .nav2{
-        /*border: 1px solid rgb(212, 226, 12);*/
-        width: 100%;
-        height: 200px;
-        /*position: fixed;*/
-        /*left: 15%;*/
-        background-image: linear-gradient(to right, black , #d4d400);
-        /* background-image: linear-gradient(to right, black , #c4c4c4); */
-       /* top: 0;*/
-        /*z-index: 2000;*/
-    }
 
-    .car-intro{
-        /*position: relative;*/
-        margin-top: 0px;
-        /*width: 100%;*/
-        height: 200px;
-    }
-    .car-intro img{
-      /*  width: 100%;*/
-       /* height: 100%;*/
-    } 
 
 }
 
@@ -329,23 +296,7 @@ html {
 
 @media only screen and (min-width:401px) and (max-width: 960px){
 
-    /*En tablet el diseño se salvó */
 
-    .saint-hide2{
-        visibility: hidden;
-    }
-
-    .nav2{
-        /*border: 1px solid rgb(212, 226, 12);*/
-        width: 85%;
-        /* height: 100px;
-        position: fixed;
-        left: 15%;
-        background-image: linear-gradient(to right, black , #d4d400);
-        /* background-image: linear-gradient(to right, black , #c4c4c4); */
-        top: 0;
-        z-index: 16; 
-    }
 
 
 }
@@ -354,10 +305,6 @@ html {
 
 @media only screen and (min-width:961px){
 
-    
-    .saint-hide{
-        visibility: hidden;
-    }
 
 
 }
