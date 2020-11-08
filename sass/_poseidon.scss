@@ -1,0 +1,37 @@
+
+#poseidon{
+    .imgPoseidon{
+        position: relative;
+        .imgPoseidon1{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .text-block{
+            position: absolute;
+            // bottom: 20px;
+            // right: 20px;
+            top: 45%;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            // height: 100px;
+            // align-items:center;
+            // height: 100px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            h1{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                margin-bottom: 0;
+                height: 80px;
+            }
+        }
+    }
+}

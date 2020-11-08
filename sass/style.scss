@@ -12,6 +12,7 @@
 @import 'plata';
 @import 'genericos';
 @import 'mediaq';
+@import 'poseidon';
 
 
 
@@ -199,6 +200,19 @@ html {
             padding-right: 20px;
             width: 100%;
             background: rgba(0, 0, 0, 0.5);
+            // height: 100px;
+            // align-items:center;
+            // height: 100px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            h1{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                margin-bottom: 0;
+                height: 80px;
+            }
         }
     }
 }
@@ -241,12 +255,15 @@ html {
                 }
             }
         .card-body{
+            border: 1px solid black;
+            margin: 0;
+            padding: 0;
             p{
-                color: gold;
+                color: black;
                 text-align: center;
-                border: 1px solid gold;
+                border: 1px solid black;
                 /*border-radius: 25px;*/
-                background-color: black;
+                // background-color: black;
                 padding: 5px;
             }
         }
@@ -264,19 +281,30 @@ html {
                     height: 100%;
                     filter: grayscale(100%);
                 }
-                & img:hover{
+                & img:hover {
                     filter: grayscale(0%);
                 }
+
+
+
             }
         }
         .card-body{
+            // visibility: hidden;
+            border: 1px solid black;
+            margin: 0;
+            padding: 0;
             p{
-                color: gold;
+                color: black;
                 text-align: center;
-                border: 1px solid gold;
+                // border: 1px solid black;
+                margin: 0;
+                padding: 0;
+                width: 100% !important;
                /* border-radius: 25px;*/
-                background-color: black;
+                // background-color: black;
                 padding: 5px;
+                // visibility: hidden;
             }
         }
     }

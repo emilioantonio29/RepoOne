@@ -82,6 +82,85 @@
           }
         }
       }
+      #asgard{/*arregla titulo de video en seccion asgard */
+        .videoAsgard{
+            position: relative;
+            .videoAsgard1{
+                width: 100%;
+                video{
+                    width: 100%;
+                }
+            }
+            .text-block{
+                position: absolute;
+                // bottom: 20px;
+                // right: 20px;
+                top: 0% !important;
+                background-color: black;
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+                width: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                height: 120px !important;
+                // align-items:center;
+                // height: 100px;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                padding: 0 !important;
+                h1{
+                    display: flex;
+                    align-items:center;
+                    justify-content: center;
+                    margin-bottom: 0;
+                    height: 90px;
+                    padding-bottom: 20px !important;
+                    padding-top: 5px !important;
+                }
+            }
+        }
+    }
+    #poseidon{
+      .imgPoseidon{
+          position: relative;
+          .imgPoseidon1{
+              width: 100%;
+              img{
+                  width: 100%;
+              }
+          }
+          .text-block{
+              position: absolute;
+              // bottom: 20px;
+              // right: 20px;
+              top: 0% !important;
+              background-color: black;
+              color: white;
+              padding-left: 20px;
+              padding-right: 20px;
+              width: 100%;
+              background: rgba(0, 0, 0, 0.5);
+              height: 105px !important;
+              // height: 100px;
+              // align-items:center;
+              // height: 100px;
+              display: flex;
+              align-items:center;
+              justify-content: center;
+              h1{
+                  display: flex;
+                  align-items:center;
+                  justify-content: center;
+                  margin-bottom: 0;
+                  height: 90px;
+                  padding-bottom: 20px !important;
+                  padding-top: 5px !important;
+              }
+          }
+      }
+  }
+  
 }
 
 
@@ -99,6 +178,85 @@
       .caja-asgard{/*arregla un margen de asgard que se rompe en mobile*/
         margin-top: 50px;
     }
+
+    #asgard{/*arregla titulo de video en seccion asgard */
+      .videoAsgard{
+          position: relative;
+          .videoAsgard1{
+              width: 100%;
+              video{
+                  width: 100%;
+              }
+          }
+          .text-block{
+              position: absolute;
+              // bottom: 20px;
+              // right: 20px;
+              top: 18% !important;
+              background-color: black;
+              color: white;
+              padding-left: 20px;
+              padding-right: 20px;
+              width: 100%;
+              background: rgba(0, 0, 0, 0.5);
+              height: 120px !important;
+              // align-items:center;
+              // height: 100px;
+              display: flex;
+              align-items:center;
+              justify-content: center;
+              padding: 0 !important;
+              h1{
+                  display: flex;
+                  align-items:center;
+                  justify-content: center;
+                  margin-bottom: 0;
+                  height: 90px;
+                  padding-bottom: 20px !important;
+                  padding-top: 5px !important;
+              }
+          }
+      }
+  }
+  #poseidon{
+    .imgPoseidon{
+        position: relative;
+        .imgPoseidon1{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .text-block{
+            position: absolute;
+            // bottom: 20px;
+            // right: 20px;
+            top: 18% !important;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            height: 105px !important;
+            // height: 100px;
+            // align-items:center;
+            // height: 100px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            h1{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                margin-bottom: 0;
+                height: 90px;
+                padding-bottom: 20px !important;
+                padding-top: 5px !important;
+            }
+        }
+    }
+}
 
 }
 
