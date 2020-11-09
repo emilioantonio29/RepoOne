@@ -5,6 +5,7 @@
 }
 
 /*core colors*/
+/*poseidon colors*/
 #oro .container {
   display: flex;
   justify-content: center;
@@ -103,6 +104,7 @@
   }
 }
 /*core colors*/
+/*poseidon colors*/
 .social-menu {
   width: 100%;
 }
@@ -160,14 +162,17 @@
 }
 
 /*core colors*/
+/*poseidon colors*/
 #bronce .box1-bronce {
   height: 110px;
   background-color: black;
   margin-top: 0;
   padding-top: 15px;
+  border: 5px solid black;
 }
 
 /*core colors*/
+/*poseidon colors*/
 #plata {
   background-color: #f3f3f3;
   position: static;
@@ -310,6 +315,7 @@
 }
 
 /*core colors*/
+/*poseidon colors*/
 hr {
   background: linear-gradient(to right, black, #ffff00);
   height: 2px;
@@ -367,10 +373,18 @@ hr {
   background-color: #d482c9;
 }
 
+.fontFix {
+  color: red !important;
+}
+
 /******************************************************************************MEDIA QUERIES*****************************************************************************/
 /*FALTA ARREGLAR LAS MEDIAQUERIES*/
 /*PHONE*/
 @media only screen and (max-width: 420px) {
+  #introImg img {
+    margin-top: 100px !important;
+  }
+
   .social-menu li .fa {
     /*cambia el color de las redes en mobile para que se vean*/
     color: gold;
@@ -428,6 +442,79 @@ hr {
     color: gold;
     background: none;
   }
+  #asgard {
+    /*arregla titulo de video en seccion asgard */
+  }
+  #asgard .videoAsgard {
+    position: relative;
+  }
+  #asgard .videoAsgard .videoAsgard1 {
+    width: 100%;
+  }
+  #asgard .videoAsgard .videoAsgard1 video {
+    width: 100%;
+  }
+  #asgard .videoAsgard .text-block {
+    position: absolute;
+    top: 0% !important;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 120px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+  }
+  #asgard .videoAsgard .text-block h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 90px;
+    padding-bottom: 20px !important;
+    padding-top: 5px !important;
+  }
+
+  #poseidon .imgPoseidon {
+    position: relative;
+  }
+  #poseidon .imgPoseidon .imgPoseidon1 {
+    width: 100%;
+  }
+  #poseidon .imgPoseidon .imgPoseidon1 img {
+    width: 100%;
+  }
+  #poseidon .imgPoseidon .text-block {
+    position: absolute;
+    top: 0% !important;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 105px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #poseidon .imgPoseidon .text-block h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 90px;
+    padding-bottom: 20px !important;
+    padding-top: 5px !important;
+  }
+
+  .cajaPoseidon .fontFix {
+    font-size: 8px !important;
+  }
 }
 /*Tablet Style*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -444,8 +531,251 @@ hr {
     /*arregla un margen de asgard que se rompe en mobile*/
     margin-top: 50px;
   }
+
+  #asgard {
+    /*arregla titulo de video en seccion asgard */
+  }
+  #asgard .videoAsgard {
+    position: relative;
+  }
+  #asgard .videoAsgard .videoAsgard1 {
+    width: 100%;
+  }
+  #asgard .videoAsgard .videoAsgard1 video {
+    width: 100%;
+  }
+  #asgard .videoAsgard .text-block {
+    position: absolute;
+    top: 18% !important;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 120px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+  }
+  #asgard .videoAsgard .text-block h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 90px;
+    padding-bottom: 20px !important;
+    padding-top: 5px !important;
+  }
+
+  #poseidon .imgPoseidon {
+    position: relative;
+  }
+  #poseidon .imgPoseidon .imgPoseidon1 {
+    width: 100%;
+  }
+  #poseidon .imgPoseidon .imgPoseidon1 img {
+    width: 100%;
+  }
+  #poseidon .imgPoseidon .text-block {
+    position: absolute;
+    top: 18% !important;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 105px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #poseidon .imgPoseidon .text-block h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 90px;
+    padding-bottom: 20px !important;
+    padding-top: 5px !important;
+  }
 }
 /*Desktop Style*/
+/*core colors*/
+/*poseidon colors*/
+#poseidon .saint-titulos {
+  text-align: left !important;
+  padding: 0% 0%;
+}
+#poseidon .imgPoseidon {
+  position: relative;
+}
+#poseidon .imgPoseidon .imgPoseidon1 {
+  width: 100%;
+}
+#poseidon .imgPoseidon .imgPoseidon1 img {
+  width: 100%;
+}
+#poseidon .imgPoseidon .text-block {
+  position: absolute;
+  top: 45%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#poseidon .imgPoseidon .text-block h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  height: 80px;
+}
+#poseidon .cajaPoseidon .tab-menu-link:hover {
+  color: gold !important;
+}
+#poseidon .cajaPoseidon *,
+#poseidon .cajaPoseidon *::before,
+#poseidon .cajaPoseidon *::after {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+#poseidon .cajaPoseidon body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #252b46;
+  background: #ffffff;
+}
+#poseidon .cajaPoseidon .container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+#poseidon .cajaPoseidon .main .tab {
+  width: 100%;
+  height: auto;
+  padding: 8rem 0;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+#poseidon .cajaPoseidon .main .tab-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-bottom: 1.3px solid #dbdbdb;
+  transition: all 0.3s ease;
+}
+#poseidon .cajaPoseidon .main .tab-menu-link {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: calc(100% / 8);
+  height: auto;
+  padding: 1rem 0;
+  border-bottom: 2.5px solid transparent;
+  color: #9194a1;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+#poseidon .cajaPoseidon .main .tab-menu-link::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+#poseidon .cajaPoseidon .main .tab-menu-link.active {
+  bottom: 0px;
+  z-index: 0;
+  overflow: hidden;
+  border-bottom: 2.5px solid gold;
+  color: gold;
+  background: #ffffff;
+}
+#poseidon .cajaPoseidon .main .tab-bar {
+  padding: 2.5rem 0;
+  overflow: hidden;
+  background: #ffffff;
+}
+#poseidon .cajaPoseidon .main .tab-bar-content {
+  display: none;
+  width: 100%;
+  min-height: 10rem;
+  transition: all 0.3s ease;
+}
+#poseidon .cajaPoseidon .main .tab-bar-content.active {
+  display: block;
+}
+#poseidon .cajaPoseidon2 {
+  margin: 0;
+  padding: 0;
+}
+#poseidon .cajaPoseidon2 .col-md-6 {
+  height: 420px;
+  /*border: 1px solid gold;*/
+}
+#poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors .poseidon-warriors-c {
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors .poseidon-warriors-c img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors img:hover {
+  filter: grayscale(0%);
+}
+#poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors p {
+  margin-top: 25%;
+}
+#poseidon .cajaPoseidon2 .col-md-6 .card-body {
+  margin: 0;
+  padding: 0;
+}
+#poseidon .cajaPoseidon2 .col-md-6 .card-body p {
+  color: black;
+  text-align: center;
+  /*border-radius: 25px;*/
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -577,6 +907,16 @@ html {
   padding-right: 20px;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#asgard .videoAsgard .text-block h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  height: 80px;
 }
 
 .caja-asgard .asgard-1 {
@@ -612,12 +952,16 @@ html {
 .caja-asgard .asgard-2 .col-md-3 .asgard-warriors img:hover {
   filter: grayscale(0%);
 }
+.caja-asgard .asgard-2 .col-md-3 .card-body {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
 .caja-asgard .asgard-2 .col-md-3 .card-body p {
-  color: gold;
+  color: black;
   text-align: center;
-  border: 1px solid gold;
+  border: 1px solid black;
   /*border-radius: 25px;*/
-  background-color: black;
   padding: 5px;
 }
 .caja-asgard .asgard-3 {
@@ -637,12 +981,18 @@ html {
 .caja-asgard .asgard-3 .col-md-3 .asgard-warriors img:hover {
   filter: grayscale(0%);
 }
+.caja-asgard .asgard-3 .card-body {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
 .caja-asgard .asgard-3 .card-body p {
-  color: gold;
+  color: black;
   text-align: center;
-  border: 1px solid gold;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
   /* border-radius: 25px;*/
-  background-color: black;
   padding: 5px;
 }
 
@@ -655,6 +1005,6 @@ html {
 /*GO*/
 /*npm install -D node-sass nodemon*/
 /*sass --watch sass/style.scss css/style.css*/
-/*1*/
+/*10*/
 
 /*# sourceMappingURL=style.css.map */
