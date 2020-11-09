@@ -8,6 +8,12 @@
 
 @media only screen and (max-width:420px) {
 
+    #introImg{
+        img{
+            margin-top: 100px !important;
+        }
+    }
+
     .social-menu li .fa {/*cambia el color de las redes en mobile para que se vean*/
         color: gold;
       }
@@ -161,6 +167,15 @@
       }
   }
   
+
+  .cajaPoseidon{
+    .fontFix{
+        font-size: 8px !important;
+    }
+}
+
+
+
 }
 
 
