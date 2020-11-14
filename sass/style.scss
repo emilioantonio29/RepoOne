@@ -13,6 +13,7 @@
 @import 'genericos';
 @import 'mediaq';
 @import 'poseidon';
+@import 'hades';
 
 
 
@@ -72,7 +73,7 @@ html {
         height: 100px;
         // position: fixed;
         left: 15%;
-        background-image: $gradienteOne;
+        // background-image: $gradienteOne; /*3*/
         /* background-image: linear-gradient(to right, black , #c4c4c4); */
         top: 0;
         z-index: 16;
@@ -80,7 +81,7 @@ html {
         .dropdown-item.active, .dropdown-item:active{
             color: #fff;
             text-decoration: none;
-            background-image: linear-gradient(to right,  #000000 , #ffff00);
+            // background-image: linear-gradient(to right,  #000000 , #ffff00); /*4*/
             /* background-color: #007bff; */
         }
 
@@ -92,7 +93,7 @@ html {
         height: 100px;
         // position: fixed;
         right: 0;
-        background-image: $gradienteTwo;
+        // background-image: $gradienteTwo; /*5*/
         /* background-image: linear-gradient(to right, #c4c4c4, #ffffff); */
         /*top: 0;*/
         z-index: 16;
@@ -120,8 +121,8 @@ html {
     .dropdown-item.active, .dropdown-item:active {
         color: #fff;
         text-decoration: none;
-        background-image: $gradienteFull;
-        /* background-color: #007bff; */
+        background-image: $gradienteFull; /*1*/
+        //  background-color: #007bff;
       }
 }
 
@@ -159,7 +160,7 @@ html {
     text-decoration: none;
     border: none;
     padding: 9px 0;
-    background-image: linear-gradient(to right, black , rgb(192, 167, 23));
+    // background-image: linear-gradient(to right, black , rgb(192, 167, 23)); /*2*/
     color:#619FE8;
     outline: none;
     width: 100%;
@@ -173,48 +174,155 @@ html {
 
 
 
+// .test2:hover .test3{
+//     // filter: grayscale(0%);
+//     background-image: url("hyoga3.gif") !important;
+//     background-size: cover;
+// }
 
+.bk1{
+    &:hover{
+        > .bk2{
+            // filter: grayscale(0%) !important;
+             background-image: url("hyoga3.gif") !important;
+            background-size: cover;
+        }
+        
+    }
+    // &:hover{
+    //     > .card-img-top{
+    //             // filter: grayscale(0%);
+    //             //  background-image: url("hyoga3.gif") !important;
+    //             // background-size: cover;
+    //             border: 1px solid gold !important;
+    //             color: gold !important;
+    //             filter: grayscale(0%) !important;
 
+    //     }
+    // }
+    
+
+}
+.bk3{
+    &:hover{
+        > .bk4{
+            // filter: grayscale(0%) !important;
+             background-image: url("hyoga3.gif") !important;
+            background-size: cover;
+        }
+        
+    }
+    // &:hover{
+    //     > .card-img-top{
+    //             // filter: grayscale(0%);
+    //             //  background-image: url("hyoga3.gif") !important;
+    //             // background-size: cover;
+    //             border: 1px solid gold !important;
+    //             color: gold !important;
+    //             filter: grayscale(0%) !important;
+
+    //     }
+    // }
+    
+
+}
 
 /******************************************************************************ASGARD*****************************************************************************/
 
 
 /*11-04-2020 cambios finales para entrega de proyecto*/
 #asgard{
-    .videoAsgard{
-        position: relative;
-        .videoAsgard1{
-            width: 100%;
-            video{
-                width: 100%;
-            }
-        }
-        .text-block{
-            position: absolute;
-            // bottom: 20px;
-            // right: 20px;
-            top: 45%;
-            background-color: black;
-            color: white;
-            padding-left: 20px;
-            padding-right: 20px;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            // height: 100px;
-            // align-items:center;
-            // height: 100px;
-            display: flex;
-            align-items:center;
-            justify-content: center;
-            h1{
-                display: flex;
-                align-items:center;
-                justify-content: center;
-                margin-bottom: 0;
-                height: 80px;
-            }
+    .asgards{
+        // width: auto;
+        // height: auto;
+        border: 1px solid red;
+        // background-color: black;
+        // background-image: url("../imagenes/mime.png") !important;
+        background-image: url("https://drive.google.com/uc?export=view&id=1hycHaNGJO6fFYwESXQ1I4IsjFV36Vle5") !important;
+        // background-size:contain;
+        // background-size: contain;
+        background-size: cover;
+        background-size: 100%;
+        // width: 100%;
+        height: 300px;
+        background-position-x: center;
+background-position-y: center;
+        .asgardsimg{
+
         }
     }
+    
+
+
+    // .videoAsgard{
+    //     // position: relative;
+    //     .videoAsgard1{
+    //         width: 100%;
+    //         video{
+    //             width: 100%;
+    //         }
+    //     }
+    //     .text-block{
+            
+    //         // position: absolute;
+    //         // bottom: 20px;
+    //         // right: 20px;
+    //         // top: 0%;
+    //         background-color: black;
+    //         color: white;
+    //         // padding-left: 20px;
+    //         // padding-right: 20px;
+    //         width: 100%;
+    //         background: rgba(0, 0, 0, 0.5);
+    //         // height: 100px;
+    //         // align-items:center;
+    //         // height: 100px;
+    //         // display: flex;
+    //         // align-items:center;
+    //         // justify-content: center;
+    //         h1{
+    //             // display: flex;
+    //             // align-items:center;
+    //             // justify-content: center;
+    //             // margin-bottom: 0;
+    //             // max-height: 100px;
+    //         }
+    //     }
+    // }
+    .video-container {
+        position: relative;
+      }
+      video {
+        height: auto;
+        vertical-align: middle;
+        width: 100%;
+      }
+      .overlay-desc {
+        // background: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      h2 {
+        // color: white;
+        // font-family: "Nobile", sans-serif;
+        // font-size: 9vw;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5) !important;
+        width: 100%;
+        color: rgb(131, 131, 131);
+        padding: 3px 0px;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow1 1s ease-in-out infinite alternate;
+      }
+      
 }
 
 
@@ -243,21 +351,32 @@ html {
         padding: 0;
         // border: 1px solid red;
         .col-md-3{
-            /*border: 1px solid gold;*/
+            // border: 1px solid red !important;
+            border: 1px solid gold;
             .asgard-warriors{
+                // background-image: url("https://drive.google.com/uc?export=view&id=1hycHaNGJO6fFYwESXQ1I4IsjFV36Vle5") !important;
+                // background-image: url("test.png") !important;
                 height: 80%;
+                // background-color: red !important;
+                // border: 1px solid red;
                 img{
+                    background: transparent;
                     height: 100%;
                     filter: grayscale(100%);
+                    // border: 1px solid red;
                 }
                 & img:hover{
                     filter: grayscale(0%);
                 }
+
+
             }
         .card-body{
+            background-color: transparent !important;
             border: 1px solid black;
             margin: 0;
             padding: 0;
+            // background-image: url("hyoga3.gif") !important;
             p{
                 color: black;
                 text-align: center;
@@ -265,49 +384,111 @@ html {
                 /*border-radius: 25px;*/
                 // background-color: black;
                 padding: 5px;
+                // background-color: transparent !important;
+                // background-image: url("hyoga3.gif") !important;
             }
+             .card-text{
+                // background-image: url("asgard3.jpg") !important;
+                // background-size: cover !important;
+            }
+            
         }
         }
     }
     .asgard-3{
         margin: 0;
         padding: 0;
-        // border: 1px solid pink;
+        // border: 1px solid red;
         .col-md-3{
-            /*border: 1px solid gold;*/
+            // border: 1px solid red !important;
+            border: 1px solid gold;
             .asgard-warriors{
+                // background-image: url("https://drive.google.com/uc?export=view&id=1hycHaNGJO6fFYwESXQ1I4IsjFV36Vle5") !important;
+                // background-image: url("test.png") !important;
                 height: 80%;
+                // background-color: red !important;
+                // border: 1px solid red;
                 img{
+                    background: transparent;
                     height: 100%;
                     filter: grayscale(100%);
+                    // border: 1px solid red;
                 }
-                & img:hover {
+                & img:hover{
                     filter: grayscale(0%);
                 }
 
 
-
             }
-        }
         .card-body{
-            // visibility: hidden;
+            background-color: transparent !important;
             border: 1px solid black;
             margin: 0;
             padding: 0;
+            // background-image: url("hyoga3.gif") !important;
             p{
                 color: black;
                 text-align: center;
-                // border: 1px solid black;
-                margin: 0;
-                padding: 0;
-                width: 100% !important;
-               /* border-radius: 25px;*/
+                border: 1px solid black;
+                /*border-radius: 25px;*/
                 // background-color: black;
                 padding: 5px;
-                // visibility: hidden;
+                // background-color: transparent !important;
+                // background-image: url("hyoga3.gif") !important;
             }
+             .card-text{
+                // background-image: url("asgard3.jpg") !important;
+                // background-size: cover !important;
+            }
+            
+        }
         }
     }
+    // .asgard-3{
+    //     margin: 0;
+    //     padding: 0;
+    //     // border: 1px solid pink;
+    //     .col-md-3{
+    //         /*border: 1px solid gold;*/
+    //         .asgard-warriors{
+    //             height: 80%;
+    //             img{
+    //                 background: transparent;
+    //                 height: 100%;
+    //                 filter: grayscale(100%);
+    //                 // border: 1px solid red;
+    //             }
+    //             & img:hover {
+    //                 filter: grayscale(0%);
+    //             }
+
+
+
+    //         }
+    //     }
+    //     .card-body{
+    //         background-color: transparent !important;
+    //         border: 1px solid black;
+    //         margin: 0;
+    //         padding: 0;
+    //         // background-image: url("hyoga3.gif") !important;
+    //         p{
+    //             color: black;
+    //             text-align: center;
+    //             border: 1px solid black;
+    //             /*border-radius: 25px;*/
+    //             // background-color: black;
+    //             padding: 5px;
+    //             // background-color: transparent !important;
+    //             // background-image: url("hyoga3.gif") !important;
+    //         }
+    //          .card-text{
+    //             // background-image: url("asgard3.jpg") !important;
+    //             // background-size: cover !important;
+    //         }
+            
+    //     }
+    // }
 }
 
 
@@ -344,6 +525,9 @@ html {
 /*GO*/
 /*npm install -D node-sass nodemon*/
 /*sass --watch sass/style.scss css/style.css*/
+/*
+https://drive.google.com/file/d/1LIUJDMwbe_y4U2K5ED9Sh1CjtxLg43tt/view?usp=sharing
+*/
 
-/*10*/
+/*1050x300 asgardd*/
 

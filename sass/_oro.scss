@@ -37,7 +37,7 @@
       }
   
       &:hover {
-        flex-grow: 8;
+        flex-grow: 7;
         img {
           filter: grayscale(0);
         }
@@ -84,7 +84,7 @@
 
         
       }
-      h1{
+      h2{
         color: gold;
         padding: 15px 0px;
         -webkit-animation: glow 1s ease-in-out infinite alternate;

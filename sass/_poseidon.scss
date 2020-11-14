@@ -6,6 +6,11 @@
         text-align: left !important;
         padding: 0% 0%;
     }
+    .fontFix{
+      // font-size: 10px !important;
+      color: grey !important;
+      
+  }
 
     .imgPoseidon{
         position: relative;
@@ -16,10 +21,10 @@
             }
         }
         .text-block{
-            position: absolute;
+            position: relative;
             // bottom: 20px;
             // right: 20px;
-            top: 45%;
+            // top: 45%;
             background-color: black;
             color: white;
             padding-left: 20px;
@@ -77,7 +82,7 @@ body {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
 // .title {
@@ -176,14 +181,23 @@ body {
         padding: 0;
         // border: 1px solid red;
         .col-md-6{
-            height: 420px;
+            height: 500px;
             /*border: 1px solid gold;*/
             .poseidon-warriors{
                 height: 100%;
                 width: 100%;
-                // display: flex;
+                display: flex;
                 align-items: center;
                 justify-content: center;
+                // text-align: justify;
+                .poseidon-warriors-d{
+                  width: 80%;
+                  height: 80%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  // text-align: justify;
+                }
                 .poseidon-warriors-c{
                     height: 100%;
                     width: 60%;
@@ -204,7 +218,7 @@ body {
                     filter: grayscale(0%);
                 }
                 p{
-                    margin-top: 25%;
+                    margin-top: 0%;
                 }
             }
         .card-body{
@@ -221,5 +235,39 @@ body {
             }
         }
         }
+    }
+    .video-container {
+      position: relative;
+    }
+    img {
+      height: auto;
+      vertical-align: middle;
+      width: 100%;
+    }
+    .overlay-desc {
+      // background: rgba(0, 0, 0, 0);
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    h2 {
+      // color: white;
+      // font-family: "Nobile", sans-serif;
+      // font-size: 9vw;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5) !important;
+      width: 100%;
+      // color: rgb(71, 71, 71);
+      color: rgb(184, 169, 85);
+      padding: 3px 0px;
+      // -webkit-animation: glow 1s ease-in-out infinite alternate;
+      // -moz-animation: glow 1s ease-in-out infinite alternate;
+      // animation: glow1 1s ease-in-out infinite alternate;
     }
 }

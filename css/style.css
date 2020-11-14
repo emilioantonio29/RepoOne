@@ -43,7 +43,7 @@
   width: 300px;
 }
 #oro .container .card:hover {
-  flex-grow: 8;
+  flex-grow: 7;
 }
 #oro .container .card:hover img {
   filter: grayscale(0);
@@ -87,7 +87,7 @@
   height: 90%;
   color: gold;
 }
-#oro h1 {
+#oro h2 {
   color: gold;
   padding: 15px 0px;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -177,7 +177,7 @@
   background-color: #f3f3f3;
   position: static;
 }
-#plata h1 {
+#plata h2 {
   color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -324,9 +324,9 @@ hr {
 }
 
 .saint-gradient {
-  background: linear-gradient(to right, black, #ffff00);
+  background: linear-gradient(to right, black, #ffff00) !important;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text !important;
 }
 
 .saint-titulos {
@@ -373,10 +373,7 @@ hr {
   background-color: #d482c9;
 }
 
-.fontFix {
-  color: red !important;
-}
-
+/*saint-titulos saint-gradient titulo-asgard*/
 /******************************************************************************MEDIA QUERIES*****************************************************************************/
 /*FALTA ARREGLAR LAS MEDIAQUERIES*/
 /*PHONE*/
@@ -512,8 +509,9 @@ hr {
     padding-top: 5px !important;
   }
 
-  .cajaPoseidon .fontFix {
-    font-size: 8px !important;
+  .cajaPoseidon .fontFix2 {
+    font-size: 9px !important;
+    color: grey !important;
   }
 }
 /*Tablet Style*/
@@ -609,6 +607,9 @@ hr {
   text-align: left !important;
   padding: 0% 0%;
 }
+#poseidon .fontFix {
+  color: grey !important;
+}
 #poseidon .imgPoseidon {
   position: relative;
 }
@@ -619,8 +620,7 @@ hr {
   width: 100%;
 }
 #poseidon .imgPoseidon .text-block {
-  position: absolute;
-  top: 45%;
+  position: relative;
   background-color: black;
   color: white;
   padding-left: 20px;
@@ -668,7 +668,7 @@ hr {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 #poseidon .cajaPoseidon .main .tab {
   width: 100%;
@@ -736,12 +736,20 @@ hr {
   padding: 0;
 }
 #poseidon .cajaPoseidon2 .col-md-6 {
-  height: 420px;
+  height: 500px;
   /*border: 1px solid gold;*/
 }
 #poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors {
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors .poseidon-warriors-d {
+  width: 80%;
+  height: 80%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -764,7 +772,7 @@ hr {
   filter: grayscale(0%);
 }
 #poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors p {
-  margin-top: 25%;
+  margin-top: 0%;
 }
 #poseidon .cajaPoseidon2 .col-md-6 .card-body {
   margin: 0;
@@ -774,6 +782,44 @@ hr {
   color: black;
   text-align: center;
   /*border-radius: 25px;*/
+}
+#poseidon .video-container {
+  position: relative;
+}
+#poseidon img {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+#poseidon .overlay-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#poseidon h2 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 100%;
+  color: #b8a955;
+  padding: 3px 0px;
+}
+
+.test {
+  width: 100%;
+  height: 600px;
+  border: 1px solid red;
+}
+
+.test1 {
+  width: 50%;
+  height: 300px;
+  border: 1px solid blue;
+  background-image: url("https://drive.google.com/uc?export=view&id=1hycHaNGJO6fFYwESXQ1I4IsjFV36Vle5") !important;
 }
 
 html {
@@ -816,7 +862,6 @@ html {
   width: 65%;
   height: 100px;
   left: 15%;
-  background-image: linear-gradient(to right, black, #d4d400);
   /* background-image: linear-gradient(to right, black , #c4c4c4); */
   top: 0;
   z-index: 16;
@@ -824,7 +869,6 @@ html {
 #header .nav2 .dropdown-item.active, #header .nav2 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-image: linear-gradient(to right, #000000, #ffff00);
   /* background-color: #007bff; */
 }
 #header .nav3 {
@@ -832,7 +876,6 @@ html {
   width: 20%;
   height: 100px;
   right: 0;
-  background-image: linear-gradient(to right, #d4d400, #ffff00);
   /* background-image: linear-gradient(to right, #c4c4c4, #ffffff); */
   /*top: 0;*/
   z-index: 16;
@@ -852,7 +895,7 @@ html {
   color: #fff;
   text-decoration: none;
   background-image: linear-gradient(to right, black, #ffff00);
-  /* background-color: #007bff; */
+  /*1*/
 }
 
 /******************************************************************************INTROIMG***************************************************************************/
@@ -876,7 +919,6 @@ html {
   text-decoration: none;
   border: none;
   padding: 9px 0;
-  background-image: linear-gradient(to right, black, #c0a717);
   color: #619FE8;
   outline: none;
   width: 100%;
@@ -887,36 +929,54 @@ html {
   border: 1px solid red;
 }
 
+.bk1:hover > .bk2 {
+  background-image: url("hyoga3.gif") !important;
+  background-size: cover;
+}
+
+.bk3:hover > .bk4 {
+  background-image: url("hyoga3.gif") !important;
+  background-size: cover;
+}
+
 /******************************************************************************ASGARD*****************************************************************************/
 /*11-04-2020 cambios finales para entrega de proyecto*/
-#asgard .videoAsgard {
+#asgard .asgards {
+  border: 1px solid red;
+  background-image: url("https://drive.google.com/uc?export=view&id=1hycHaNGJO6fFYwESXQ1I4IsjFV36Vle5") !important;
+  background-size: cover;
+  background-size: 100%;
+  height: 300px;
+  background-position-x: center;
+  background-position-y: center;
+}
+#asgard .video-container {
   position: relative;
 }
-#asgard .videoAsgard .videoAsgard1 {
+#asgard video {
+  height: auto;
+  vertical-align: middle;
   width: 100%;
 }
-#asgard .videoAsgard .videoAsgard1 video {
-  width: 100%;
-}
-#asgard .videoAsgard .text-block {
+#asgard .overlay-desc {
   position: absolute;
-  top: 45%;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#asgard .videoAsgard .text-block h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0;
-  height: 80px;
+#asgard h2 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 100%;
+  color: #838383;
+  padding: 3px 0px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
 }
 
 .caja-asgard .asgard-1 {
@@ -940,12 +1000,13 @@ html {
   padding: 0;
 }
 .caja-asgard .asgard-2 .col-md-3 {
-  /*border: 1px solid gold;*/
+  border: 1px solid gold;
 }
 .caja-asgard .asgard-2 .col-md-3 .asgard-warriors {
   height: 80%;
 }
 .caja-asgard .asgard-2 .col-md-3 .asgard-warriors img {
+  background: transparent;
   height: 100%;
   filter: grayscale(100%);
 }
@@ -953,6 +1014,7 @@ html {
   filter: grayscale(0%);
 }
 .caja-asgard .asgard-2 .col-md-3 .card-body {
+  background-color: transparent !important;
   border: 1px solid black;
   margin: 0;
   padding: 0;
@@ -969,33 +1031,32 @@ html {
   padding: 0;
 }
 .caja-asgard .asgard-3 .col-md-3 {
-  /*border: 1px solid gold;*/
+  border: 1px solid gold;
 }
 .caja-asgard .asgard-3 .col-md-3 .asgard-warriors {
   height: 80%;
 }
 .caja-asgard .asgard-3 .col-md-3 .asgard-warriors img {
+  background: transparent;
   height: 100%;
   filter: grayscale(100%);
 }
 .caja-asgard .asgard-3 .col-md-3 .asgard-warriors img:hover {
   filter: grayscale(0%);
 }
-.caja-asgard .asgard-3 .card-body {
+.caja-asgard .asgard-3 .col-md-3 .card-body {
+  background-color: transparent !important;
   border: 1px solid black;
   margin: 0;
   padding: 0;
 }
-.caja-asgard .asgard-3 .card-body p {
+.caja-asgard .asgard-3 .col-md-3 .card-body p {
   color: black;
   text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  /* border-radius: 25px;*/
+  border: 1px solid black;
+  /*border-radius: 25px;*/
   padding: 5px;
 }
-
 /******************************************************************************FOOTER*****************************************************************************/
 /******************************************************************************MEDIA QUERIES*****************************************************************************/
 /*FALTA ARREGLAR LAS MEDIAQUERIES*/
@@ -1005,6 +1066,9 @@ html {
 /*GO*/
 /*npm install -D node-sass nodemon*/
 /*sass --watch sass/style.scss css/style.css*/
-/*10*/
+/*
+https://drive.google.com/file/d/1LIUJDMwbe_y4U2K5ED9Sh1CjtxLg43tt/view?usp=sharing
+*/
+/*1050x300 asgardd*/
 
 /*# sourceMappingURL=style.css.map */
