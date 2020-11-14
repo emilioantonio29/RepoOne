@@ -809,17 +809,185 @@ hr {
   padding: 3px 0px;
 }
 
-.test {
-  width: 100%;
-  height: 600px;
-  border: 1px solid red;
+/******************************************************************************ASGARD*****************************************************************************/
+/*
+https://drive.google.com/uc?export=view&id=1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT
+https://drive.google.com/file/d/1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT/view?usp=sharing
+/*14-11-2020 efecto cosmos*/
+.bk1:hover > .bk2 {
+  background-image: url("../imagenes/hyoga.gif") !important;
+  background-size: cover;
 }
 
-.test1 {
-  width: 50%;
-  height: 300px;
-  border: 1px solid blue;
-  background-image: url("https://drive.google.com/uc?export=view&id=1hycHaNGJO6fFYwESXQ1I4IsjFV36Vle5") !important;
+.bk3:hover > .bk4 {
+  background-image: url("../imagenes/hyoga.gif") !important;
+  background-size: cover;
+}
+
+/*11-04-2020 cambios finales para entrega de proyecto*/
+#asgard .video-container {
+  position: relative;
+}
+#asgard video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+#asgard .overlay-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#asgard h2 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 100%;
+  color: #838383;
+  padding: 3px 0px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+
+.caja-asgard .asgard-1 {
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-1 .col-md-12 {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+.caja-asgard .asgard-1 .col-md-12 video {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.caja-asgard .asgard-2 {
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors {
+  height: 80%;
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img {
+  background: transparent;
+  height: 100%;
+  filter: grayscale(100%);
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img:hover {
+  filter: grayscale(0%);
+}
+.caja-asgard .asgard-2 .col-md-3 .card-body {
+  background-color: transparent !important;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-2 .col-md-3 .card-body p {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+.caja-asgard .asgard-3 {
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors {
+  height: 80%;
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img {
+  background: transparent;
+  height: 100%;
+  filter: grayscale(100%);
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img:hover {
+  filter: grayscale(0%);
+}
+.caja-asgard .asgard-3 .col-md-3 .card-body {
+  background-color: transparent !important;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-3 .col-md-3 .card-body p {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#cielo {
+  /* general styling */
+}
+#cielo * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#cielo html,
+#cielo body {
+  height: 100%;
+  margin: 0;
+}
+#cielo body {
+  align-items: center;
+  background-color: #ffd54f;
+  display: flex;
+}
+#cielo .container {
+  padding: 0;
+  width: 100% !important;
+  color: gold;
+  margin: 0;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+#cielo li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1em;
+}
+#cielo li span {
+  display: block;
+}
+#cielo .video-container {
+  position: relative;
+  width: 100%;
+}
+#cielo img {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+#cielo .overlay-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+}
+#cielo h2 {
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: gold;
+  padding: 3px 0px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
 }
 
 html {
@@ -910,153 +1078,6 @@ html {
   padding-bottom: 10px;
 }
 
-/******************************************************************************ORO*****************************************************************************/
-.caballeros-oro {
-  width: 100%;
-}
-
-.saint-button3 {
-  text-decoration: none;
-  border: none;
-  padding: 9px 0;
-  color: #619FE8;
-  outline: none;
-  width: 100%;
-}
-
-.caja-oro {
-  width: 100%;
-  border: 1px solid red;
-}
-
-.bk1:hover > .bk2 {
-  background-image: url("hyoga3.gif") !important;
-  background-size: cover;
-}
-
-.bk3:hover > .bk4 {
-  background-image: url("hyoga3.gif") !important;
-  background-size: cover;
-}
-
-/******************************************************************************ASGARD*****************************************************************************/
-/*11-04-2020 cambios finales para entrega de proyecto*/
-#asgard .asgards {
-  border: 1px solid red;
-  background-image: url("https://drive.google.com/uc?export=view&id=1hycHaNGJO6fFYwESXQ1I4IsjFV36Vle5") !important;
-  background-size: cover;
-  background-size: 100%;
-  height: 300px;
-  background-position-x: center;
-  background-position-y: center;
-}
-#asgard .video-container {
-  position: relative;
-}
-#asgard video {
-  height: auto;
-  vertical-align: middle;
-  width: 100%;
-}
-#asgard .overlay-desc {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#asgard h2 {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5) !important;
-  width: 100%;
-  color: #838383;
-  padding: 3px 0px;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow1 1s ease-in-out infinite alternate;
-}
-
-.caja-asgard .asgard-1 {
-  /*border: 1px solid gold;*/
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-1 .col-md-12 {
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  /*height: 100%;*/
-}
-.caja-asgard .asgard-1 .col-md-12 video {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-.caja-asgard .asgard-2 {
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-2 .col-md-3 {
-  border: 1px solid gold;
-}
-.caja-asgard .asgard-2 .col-md-3 .asgard-warriors {
-  height: 80%;
-}
-.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img {
-  background: transparent;
-  height: 100%;
-  filter: grayscale(100%);
-}
-.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img:hover {
-  filter: grayscale(0%);
-}
-.caja-asgard .asgard-2 .col-md-3 .card-body {
-  background-color: transparent !important;
-  border: 1px solid black;
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-2 .col-md-3 .card-body p {
-  color: black;
-  text-align: center;
-  border: 1px solid black;
-  /*border-radius: 25px;*/
-  padding: 5px;
-}
-.caja-asgard .asgard-3 {
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-3 .col-md-3 {
-  border: 1px solid gold;
-}
-.caja-asgard .asgard-3 .col-md-3 .asgard-warriors {
-  height: 80%;
-}
-.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img {
-  background: transparent;
-  height: 100%;
-  filter: grayscale(100%);
-}
-.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img:hover {
-  filter: grayscale(0%);
-}
-.caja-asgard .asgard-3 .col-md-3 .card-body {
-  background-color: transparent !important;
-  border: 1px solid black;
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-3 .col-md-3 .card-body p {
-  color: black;
-  text-align: center;
-  border: 1px solid black;
-  /*border-radius: 25px;*/
-  padding: 5px;
-}
 /******************************************************************************FOOTER*****************************************************************************/
 /******************************************************************************MEDIA QUERIES*****************************************************************************/
 /*FALTA ARREGLAR LAS MEDIAQUERIES*/
