@@ -23,6 +23,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.fixon{
+  position: static !important;
+  z-index: -3000;
+}
+
 /******************************************************************************MENU***************************************************************************/
 
 #header{
@@ -78,7 +83,7 @@ html {
 
     img{
         width: 100%;
-        margin-top: 80px;
+        // margin-top: 80px;
         // // height: 100%;
     }
 }
@@ -237,5 +242,5 @@ html {
 https://drive.google.com/file/d/1LIUJDMwbe_y4U2K5ED9Sh1CjtxLg43tt/view?usp=sharing
 */
 
-/*1050x300 asgardd*/
+/*1050x300 asgarddss*/
 

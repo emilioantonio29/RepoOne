@@ -76,3 +76,33 @@ hr {
         height: 130px;
         background-color: gold;
     }
+   
+    .escon {
+        position: relative;
+        display: inline-block;
+        // border-left: 1px solid black;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      
+      .escon .muestra {
+        visibility: hidden;
+        width: 120px;
+        background-color: gold;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+      }
+      
+      .escon:hover .muestra {
+        visibility: visible;
+      } 
