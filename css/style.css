@@ -475,6 +475,34 @@ hr {
   background-color: gold;
 }
 
+.escon {
+  position: relative;
+  display: inline-block;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.escon .muestra {
+  visibility: hidden;
+  width: 120px;
+  background-color: gold;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.escon:hover .muestra {
+  visibility: visible;
+}
+
 /******************************************************************************MEDIA QUERIES*****************************************************************************/
 /*FALTA ARREGLAR LAS MEDIAQUERIES*/
 /*PHONE*/
@@ -696,6 +724,12 @@ hr {
     height: 0px !important;
   }
 
+  #hades {
+    height: 1000px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   #hades .assure {
     height: 800px;
   }
@@ -719,12 +753,15 @@ hr {
   }
 }
 /*Tablet Style*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 421px) and (max-width: 960px) {
   #hades {
-    height: 850px !important;
+    height: 1200px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #hades .assure {
-    height: 800px !important;
+    height: 1000px !important;
   }
   #hades .container {
     display: flex;
@@ -1242,6 +1279,7 @@ html {
 
 .fixon {
   position: static !important;
+  z-index: -3000;
 }
 
 /******************************************************************************MENU***************************************************************************/
@@ -1368,6 +1406,6 @@ html {
 /*
 https://drive.google.com/file/d/1LIUJDMwbe_y4U2K5ED9Sh1CjtxLg43tt/view?usp=sharing
 */
-/*1050x300 asgardd*/
+/*1050x300 asgarddss*/
 
 /*# sourceMappingURL=style.css.map */

@@ -261,6 +261,10 @@
     }
   
   #hades{
+    height: 1000px !important;
+    display: flex;
+    align-items:center;
+    justify-content: center;
     .assure{
       height: 800px;
     }
@@ -292,12 +296,15 @@
 
 /*Tablet Style*/
 
-@media only screen and (min-width:401px) and (max-width: 960px){
+@media only screen and (min-width:421px) and (max-width: 960px){
 
   #hades{
-    height: 850px !important;
+    height: 1200px !important;
+    display: flex;
+    align-items:center;
+    justify-content: center;
     .assure{
-      height: 800px !important;
+      height: 1000px !important;
     }
     .container{
       display: flex;
