@@ -695,13 +695,56 @@ hr {
   .cien2 {
     height: 0px !important;
   }
-}
-.fixer {
-  padding-left: 0% !important;
-}
 
+  #hades .assure {
+    height: 800px;
+  }
+  #hades .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #hades .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #hades .container .row .embed-responsive {
+    border: 1px solid #b700ff !important;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 /*Tablet Style*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+  #hades {
+    height: 850px !important;
+  }
+  #hades .assure {
+    height: 800px !important;
+  }
+  #hades .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #hades .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #hades .container .row .embed-responsive {
+    border: 1px solid #b700ff !important;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .social-menu li .fa {
     /*cambia el color de las redes en mobile para que se vean*/
     color: gold;

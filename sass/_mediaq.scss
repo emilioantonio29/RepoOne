@@ -259,17 +259,67 @@
     .cien2{
         height: 0px !important;
     }
+  
+  #hades{
+    .assure{
+      height: 800px;
+    }
+    .container{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      .row{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        .embed-responsive{
+          border: 1px solid rgb(183, 0, 255) !important;
+          height: 250px;
+          width: 100%;
+          display: flex;
+          align-items:center;
+          justify-content: center;
+        }
+      }
+    }
 
+
+  }
 }
-.fixer{
-    padding-left: 0% !important;
-}
+
 
 
 
 /*Tablet Style*/
 
 @media only screen and (min-width:401px) and (max-width: 960px){
+
+  #hades{
+    height: 850px !important;
+    .assure{
+      height: 800px !important;
+    }
+    .container{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      .row{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        .embed-responsive{
+          border: 1px solid rgb(183, 0, 255) !important;
+          height: 250px;
+          width: 100%;
+          display: flex;
+          align-items:center;
+          justify-content: center;
+        }
+      }
+    }
+
+
+  }
 
     .social-menu li .fa {/*cambia el color de las redes en mobile para que se vean*/
         color: gold;
