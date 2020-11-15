@@ -16,8 +16,6 @@ body::before {
   border-bottom: 2px solid black;
   content: 'Error: expected "{".\a    \2577 \a 13 \2502               background-image: url("https://drive.google.com/uc?export=view&id=1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT") !important;\d\a    \2502                                                                                                                     ^\a    \2575 \a   sass\\_asgard.scss 13:116  @import\a   sass\\style.scss 17:9      root stylesheet';
 }
-<<<<<<< HEAD
-=======
 
 /*core colors*/
 /*poseidon colors*/
@@ -1178,4 +1176,3 @@ https://drive.google.com/file/d/1LIUJDMwbe_y4U2K5ED9Sh1CjtxLg43tt/view?usp=shari
 /*1050x300 asgarddsss*/
 
 /*# sourceMappingURL=style.css.map */
->>>>>>> desa
