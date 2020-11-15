@@ -169,14 +169,102 @@
   
 
   .cajaPoseidon{
-    .fontFix{
-        font-size: 8px !important;
+    .fontFix2{
+        font-size: 9px !important;
+        color: grey !important;
+        
     }
 }
+#hades{
+    .cajahades{
+        height: 900px !important;
+    
+    }
+}
+// #cielo{
+//     margin-top: 500px;
+// }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    // height: 200px;
+    img {
+        height: auto;
+        vertical-align: middle;
+        width: 100%;
 
+    }
+  }
+  .social-menu2{
+    // border: 1px solid blue;
+    width: 100%;
+    display: flex;
+
+  }
+  
+  
+  .social-menu2 .social-menu22 {
+    list-style: none;
+    margin: 0 5px;
+  
+  }
+  .social-menu2 .social-menu22 .fa {
+    color: #000000;
+    font-size: 12.5px;
+    line-height: 25px;
+    transition: 0.3s;
+  }
+  .social-menu2 .social-menu22 .fa:hover {
+    color: gold;
+  }
+  .social-menu2 .social-menu22 a {
+    // position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0, 0px);
+    box-shadow: 0px 3.5px 2.5px rgba(0, 0, 0, 0.5);
+  }
+  .social-menu2 .social-menu22 a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -8px);
+  }
+  .social-menu2 .social-menu22:nth-child(1) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(2) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(3) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(4) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(5) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(6) a:hover {
+    background-color: black;
+  }
+  .cien{
+    // border: 4px solid green;
+    width: 100%;
+    height: 120px !important;
+    background-color: gold;}
+    .cien2{
+        height: 0px !important;
+    }
 
 }
+.fixer{
+    padding-left: 0% !important;
+}
+
 
 
 /*Tablet Style*/

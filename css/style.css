@@ -6,6 +6,7 @@
 
 /*core colors*/
 /*poseidon colors*/
+/* navbar-light color: rgba(0, 0, 0, 0.9); navbar-dark color: #fff;*/
 #oro .container {
   display: flex;
   justify-content: center;
@@ -43,7 +44,7 @@
   width: 300px;
 }
 #oro .container .card:hover {
-  flex-grow: 8;
+  flex-grow: 7;
 }
 #oro .container .card:hover img {
   filter: grayscale(0);
@@ -87,7 +88,7 @@
   height: 90%;
   color: gold;
 }
-#oro h1 {
+#oro h2 {
   color: gold;
   padding: 15px 0px;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -105,6 +106,7 @@
 }
 /*core colors*/
 /*poseidon colors*/
+/* navbar-light color: rgba(0, 0, 0, 0.9); navbar-dark color: #fff;*/
 .social-menu {
   width: 100%;
 }
@@ -161,8 +163,85 @@
   background-color: black;
 }
 
+/*=======================FIRMA================*/
+.social-menu2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-menu2 .social-menu22 {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.social-menu2 .social-menu22 .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: 0.5s;
+}
+
+.social-menu2 .social-menu22 .fa:hover {
+  color: gold;
+}
+
+.social-menu2 .social-menu22 a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0, 0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.social-menu2 .social-menu22 a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+.social-menu2 .social-menu22:nth-child(1) a:hover {
+  background-color: black;
+}
+
+.social-menu2 .social-menu22:nth-child(2) a:hover {
+  background-color: black;
+}
+
+.social-menu2 .social-menu22:nth-child(3) a:hover {
+  background-color: black;
+}
+
+.social-menu2 .social-menu22:nth-child(4) a:hover {
+  background-color: black;
+}
+
+.social-menu2 .social-menu22:nth-child(5) a:hover {
+  background-color: black;
+}
+
+.social-menu2 .social-menu22:nth-child(6) a:hover {
+  background-color: black;
+}
+
 /*core colors*/
 /*poseidon colors*/
+/* navbar-light color: rgba(0, 0, 0, 0.9); navbar-dark color: #fff;*/
+#bronce .carousel {
+  position: relative;
+}
+#bronce .carousel-caption {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px 10px;
+}
+#bronce .carousel-control-prev,
+#bronce .carousel-control-next {
+  width: 5%;
+}
 #bronce .box1-bronce {
   height: 110px;
   background-color: black;
@@ -173,11 +252,12 @@
 
 /*core colors*/
 /*poseidon colors*/
+/* navbar-light color: rgba(0, 0, 0, 0.9); navbar-dark color: #fff;*/
 #plata {
   background-color: #f3f3f3;
   position: static;
 }
-#plata h1 {
+#plata h2 {
   color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -316,6 +396,7 @@
 
 /*core colors*/
 /*poseidon colors*/
+/* navbar-light color: rgba(0, 0, 0, 0.9); navbar-dark color: #fff;*/
 hr {
   background: linear-gradient(to right, black, #ffff00);
   height: 2px;
@@ -323,10 +404,17 @@ hr {
   padding: 0;
 }
 
+.last {
+  background: gold;
+  height: 2px;
+  margin: 0;
+  padding: 0;
+}
+
 .saint-gradient {
-  background: linear-gradient(to right, black, #ffff00);
+  background: linear-gradient(to right, black, #ffff00) !important;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text !important;
 }
 
 .saint-titulos {
@@ -373,8 +461,18 @@ hr {
   background-color: #d482c9;
 }
 
-.fontFix {
-  color: red !important;
+/*saint-titulos saint-gradient titulo-asgard*/
+.claro {
+  color: #cfcfcf !important;
+}
+
+.oscuro {
+  color: #848484 !important;
+}
+
+.cien2 {
+  height: 130px;
+  background-color: gold;
 }
 
 /******************************************************************************MEDIA QUERIES*****************************************************************************/
@@ -512,10 +610,100 @@ hr {
     padding-top: 5px !important;
   }
 
-  .cajaPoseidon .fontFix {
-    font-size: 8px !important;
+  .cajaPoseidon .fontFix2 {
+    font-size: 9px !important;
+    color: grey !important;
+  }
+
+  #hades .cajahades {
+    height: 900px !important;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+  }
+  .video-container img {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .social-menu2 {
+    width: 100%;
+    display: flex;
+  }
+
+  .social-menu2 .social-menu22 {
+    list-style: none;
+    margin: 0 5px;
+  }
+
+  .social-menu2 .social-menu22 .fa {
+    color: #000000;
+    font-size: 12.5px;
+    line-height: 25px;
+    transition: 0.3s;
+  }
+
+  .social-menu2 .social-menu22 .fa:hover {
+    color: gold;
+  }
+
+  .social-menu2 .social-menu22 a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0, 0px);
+    box-shadow: 0px 3.5px 2.5px rgba(0, 0, 0, 0.5);
+  }
+
+  .social-menu2 .social-menu22 a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -8px);
+  }
+
+  .social-menu2 .social-menu22:nth-child(1) a:hover {
+    background-color: black;
+  }
+
+  .social-menu2 .social-menu22:nth-child(2) a:hover {
+    background-color: black;
+  }
+
+  .social-menu2 .social-menu22:nth-child(3) a:hover {
+    background-color: black;
+  }
+
+  .social-menu2 .social-menu22:nth-child(4) a:hover {
+    background-color: black;
+  }
+
+  .social-menu2 .social-menu22:nth-child(5) a:hover {
+    background-color: black;
+  }
+
+  .social-menu2 .social-menu22:nth-child(6) a:hover {
+    background-color: black;
+  }
+
+  .cien {
+    width: 100%;
+    height: 120px !important;
+    background-color: gold;
+  }
+
+  .cien2 {
+    height: 0px !important;
   }
 }
+.fixer {
+  padding-left: 0% !important;
+}
+
 /*Tablet Style*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .social-menu li .fa {
@@ -605,9 +793,13 @@ hr {
 /*Desktop Style*/
 /*core colors*/
 /*poseidon colors*/
+/* navbar-light color: rgba(0, 0, 0, 0.9); navbar-dark color: #fff;*/
 #poseidon .saint-titulos {
   text-align: left !important;
   padding: 0% 0%;
+}
+#poseidon .fontFix {
+  color: grey !important;
 }
 #poseidon .imgPoseidon {
   position: relative;
@@ -619,8 +811,7 @@ hr {
   width: 100%;
 }
 #poseidon .imgPoseidon .text-block {
-  position: absolute;
-  top: 45%;
+  position: relative;
   background-color: black;
   color: white;
   padding-left: 20px;
@@ -668,7 +859,7 @@ hr {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 #poseidon .cajaPoseidon .main .tab {
   width: 100%;
@@ -736,12 +927,20 @@ hr {
   padding: 0;
 }
 #poseidon .cajaPoseidon2 .col-md-6 {
-  height: 420px;
+  height: 500px;
   /*border: 1px solid gold;*/
 }
 #poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors {
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors .poseidon-warriors-d {
+  width: 80%;
+  height: 80%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -764,7 +963,7 @@ hr {
   filter: grayscale(0%);
 }
 #poseidon .cajaPoseidon2 .col-md-6 .poseidon-warriors p {
-  margin-top: 25%;
+  margin-top: 0%;
 }
 #poseidon .cajaPoseidon2 .col-md-6 .card-body {
   margin: 0;
@@ -774,6 +973,228 @@ hr {
   color: black;
   text-align: center;
   /*border-radius: 25px;*/
+}
+#poseidon .video-container {
+  position: relative;
+}
+#poseidon img {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+#poseidon .overlay-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#poseidon h2 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 100%;
+  color: #b8a955;
+  padding: 3px 0px;
+}
+
+#hades {
+  background-image: url("../imagenes/tresjueces.jpg") !important;
+}
+#hades #carouselExampleControls {
+  margin-top: 100px;
+}
+#hades .carousel-control-prev-icon,
+#hades .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+}
+#hades .carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+}
+#hades .carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+}
+#hades .embed-responsive {
+  border: 1px solid #b700ff !important;
+}
+
+.hadestitulo {
+  color: #b700ff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.cajahades {
+  height: 600px !important;
+}
+
+/******************************************************************************ASGARD*****************************************************************************/
+/*
+https://drive.google.com/uc?export=view&id=1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT
+https://drive.google.com/file/d/1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT/view?usp=sharing
+/*14-11-2020 efecto cosmos*/
+.bk1:hover > .bk2 {
+  background-image: url("../imagenes/hyoga.gif") !important;
+  background-size: cover;
+}
+
+.bk3:hover > .bk4 {
+  background-image: url("../imagenes/hyoga.gif") !important;
+  background-size: cover;
+}
+
+/*11-04-2020 cambios finales para entrega de proyecto*/
+#asgard .video-container {
+  position: relative;
+}
+#asgard video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+#asgard .overlay-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#asgard h2 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 100%;
+  color: #838383;
+  padding: 3px 0px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+
+.caja-asgard .asgard-1 {
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-1 .col-md-12 {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+.caja-asgard .asgard-1 .col-md-12 video {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.caja-asgard .asgard-2 {
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors {
+  height: 80%;
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img {
+  background: transparent;
+  height: 100%;
+  filter: grayscale(100%);
+}
+.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img:hover {
+  filter: grayscale(0%);
+}
+.caja-asgard .asgard-2 .col-md-3 .card-body {
+  background-color: transparent !important;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-2 .col-md-3 .card-body p {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+.caja-asgard .asgard-3 {
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors {
+  height: 80%;
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img {
+  background: transparent;
+  height: 100%;
+  filter: grayscale(100%);
+}
+.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img:hover {
+  filter: grayscale(0%);
+}
+.caja-asgard .asgard-3 .col-md-3 .card-body {
+  background-color: transparent !important;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+.caja-asgard .asgard-3 .col-md-3 .card-body p {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#cielo .container {
+  padding: 0;
+  width: 100% !important;
+  color: gold;
+  margin: 0;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+#cielo li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+}
+#cielo .video-container {
+  position: relative;
+  width: 100%;
+}
+#cielo img {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+#cielo .overlay-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+}
+#cielo h2 {
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: gold;
+  padding: 3px 0px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
 }
 
 html {
@@ -793,54 +1214,6 @@ html {
   padding: 0px;
   height: 100px;
 }
-#header .nav1 {
-  width: 15%;
-  height: 100px;
-  top: 0;
-  z-index: 16;
-  padding: 0px 10px;
-  background-color: black;
-}
-#header .nav1 a {
-  width: 100%;
-  height: 100%;
-  padding: 0px 0px;
-  margin: 0px 0px;
-  top: 0;
-}
-#header .nav1 a img {
-  width: 100%;
-  height: 100%;
-}
-#header .nav2 {
-  width: 65%;
-  height: 100px;
-  left: 15%;
-  background-image: linear-gradient(to right, black, #d4d400);
-  /* background-image: linear-gradient(to right, black , #c4c4c4); */
-  top: 0;
-  z-index: 16;
-}
-#header .nav2 .dropdown-item.active, #header .nav2 .dropdown-item:active {
-  color: #fff;
-  text-decoration: none;
-  background-image: linear-gradient(to right, #000000, #ffff00);
-  /* background-color: #007bff; */
-}
-#header .nav3 {
-  /*border: 1px solid rgb(212, 226, 12);*/
-  width: 20%;
-  height: 100px;
-  right: 0;
-  background-image: linear-gradient(to right, #d4d400, #ffff00);
-  /* background-image: linear-gradient(to right, #c4c4c4, #ffffff); */
-  /*top: 0;*/
-  z-index: 16;
-  top: 0;
-}
-#header .nav3 ul li a {
-  color: black !important;
-}
 #header .nav-link-black:hover {
   color: white !important;
 }
@@ -852,7 +1225,7 @@ html {
   color: #fff;
   text-decoration: none;
   background-image: linear-gradient(to right, black, #ffff00);
-  /* background-color: #007bff; */
+  /*1*/
 }
 
 /******************************************************************************INTROIMG***************************************************************************/
@@ -867,136 +1240,81 @@ html {
   padding-bottom: 10px;
 }
 
-/******************************************************************************ORO*****************************************************************************/
-.caballeros-oro {
-  width: 100%;
-}
-
-.saint-button3 {
-  text-decoration: none;
-  border: none;
-  padding: 9px 0;
-  background-image: linear-gradient(to right, black, #c0a717);
-  color: #619FE8;
-  outline: none;
-  width: 100%;
-}
-
-.caja-oro {
-  width: 100%;
-  border: 1px solid red;
-}
-
-/******************************************************************************ASGARD*****************************************************************************/
-/*11-04-2020 cambios finales para entrega de proyecto*/
-#asgard .videoAsgard {
-  position: relative;
-}
-#asgard .videoAsgard .videoAsgard1 {
-  width: 100%;
-}
-#asgard .videoAsgard .videoAsgard1 video {
-  width: 100%;
-}
-#asgard .videoAsgard .text-block {
-  position: absolute;
-  top: 45%;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#asgard .videoAsgard .text-block h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0;
-  height: 80px;
-}
-
-.caja-asgard .asgard-1 {
-  /*border: 1px solid gold;*/
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-1 .col-md-12 {
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  /*height: 100%;*/
-}
-.caja-asgard .asgard-1 .col-md-12 video {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-.caja-asgard .asgard-2 {
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-2 .col-md-3 {
-  /*border: 1px solid gold;*/
-}
-.caja-asgard .asgard-2 .col-md-3 .asgard-warriors {
-  height: 80%;
-}
-.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img {
-  height: 100%;
-  filter: grayscale(100%);
-}
-.caja-asgard .asgard-2 .col-md-3 .asgard-warriors img:hover {
-  filter: grayscale(0%);
-}
-.caja-asgard .asgard-2 .col-md-3 .card-body {
-  border: 1px solid black;
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-2 .col-md-3 .card-body p {
-  color: black;
-  text-align: center;
-  border: 1px solid black;
-  /*border-radius: 25px;*/
-  padding: 5px;
-}
-.caja-asgard .asgard-3 {
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-3 .col-md-3 {
-  /*border: 1px solid gold;*/
-}
-.caja-asgard .asgard-3 .col-md-3 .asgard-warriors {
-  height: 80%;
-}
-.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img {
-  height: 100%;
-  filter: grayscale(100%);
-}
-.caja-asgard .asgard-3 .col-md-3 .asgard-warriors img:hover {
-  filter: grayscale(0%);
-}
-.caja-asgard .asgard-3 .card-body {
-  border: 1px solid black;
-  margin: 0;
-  padding: 0;
-}
-.caja-asgard .asgard-3 .card-body p {
-  color: black;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  /* border-radius: 25px;*/
-  padding: 5px;
-}
-
 /******************************************************************************FOOTER*****************************************************************************/
+.fixer {
+  padding-left: 25%;
+}
+
+#contacto {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to right, black, gold);
+}
+#contacto .container {
+  background-color: transparent;
+}
+#contacto .cien {
+  max-width: 100%;
+  height: 130px;
+  background-color: gold;
+}
+#contacto .cien .contaniner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contacto .cien .contaniner .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#contacto .cien .contaniner .row p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#contacto .cien .contaniner .row .col-md-12 {
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer {
+  color: white;
+  padding: 50px 0px;
+  margin: 0;
+}
+.footer .links ul, .footer .location ul {
+  list-style-type: none;
+}
+.footer .links li a, .footer .location li a {
+  transition: color 0.2s;
+}
+.footer .links li a:hover, .footer .location li a:hover {
+  text-decoration: none;
+  color: #cfcfcf !important;
+}
+.footer .about-company a {
+  transition: color 0.2s;
+}
+.footer .about-company a:hover {
+  color: #cfcfcf !important;
+}
+.footer .location i {
+  font-size: 18px;
+  list-style-type: none;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 /******************************************************************************MEDIA QUERIES*****************************************************************************/
 /*FALTA ARREGLAR LAS MEDIAQUERIES*/
 /*PHONE*/
@@ -1005,6 +1323,9 @@ html {
 /*GO*/
 /*npm install -D node-sass nodemon*/
 /*sass --watch sass/style.scss css/style.css*/
-/*10*/
+/*
+https://drive.google.com/file/d/1LIUJDMwbe_y4U2K5ED9Sh1CjtxLg43tt/view?usp=sharing
+*/
+/*1050x300 asgardd*/
 
 /*# sourceMappingURL=style.css.map */
