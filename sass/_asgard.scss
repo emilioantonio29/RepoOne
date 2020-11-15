@@ -1,0 +1,150 @@
+
+/******************************************************************************ASGARD*****************************************************************************/
+/*
+https://drive.google.com/uc?export=view&id=1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT
+https://drive.google.com/file/d/1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT/view?usp=sharing
+/*14-11-2020 efecto cosmos*/
+.bk1{
+    &:hover{
+        > .bk2{
+            // filter: grayscale(0%) !important;
+            // background-image: url("../imagenes/hyoga.gif") !important;
+            background-image: url("https://drive.google.com/uc?export=view&id=1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT") !important;
+            background-size: cover;
+        }
+        
+    }
+
+}
+.bk3{
+    &:hover{
+        > .bk4{
+            // filter: grayscale(0%) !important;
+            //  background-image: url("../imagenes/hyoga.gif") !important;
+            background-image: url("https://drive.google.com/uc?export=view&id=1ugiq4bwxR6WLeJC24WK1NLbF92G_ILeT") !important;
+            background-size: cover;
+        }
+        
+    }   
+}
+
+
+/*11-04-2020 cambios finales para entrega de proyecto*/
+#asgard{
+    .video-container {
+        position: relative;
+      }
+      video {
+        height: auto;
+        vertical-align: middle;
+        width: 100%;
+      }
+      .overlay-desc {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      h2 {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5) !important;
+        width: 100%;
+        color: rgb(131, 131, 131);
+        padding: 3px 0px;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow1 1s ease-in-out infinite alternate;
+      }
+      
+}
+
+
+.caja-asgard{
+    .asgard-1{
+        margin: 0;
+        padding: 0;
+        .col-md-12{
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+            video{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+        }
+    
+    }
+    .asgard-2{
+        margin: 0;
+        padding: 0;
+        .col-md-3{
+            .asgard-warriors{
+                height: 80%;
+                img{
+                    background: transparent;
+                    height: 100%;
+                    filter: grayscale(100%);
+                    // border: 1px solid red;
+                }
+                & img:hover{
+                    filter: grayscale(0%);
+                }
+
+
+            }
+        .card-body{
+            background-color: transparent !important;
+            border: 1px solid black;
+            margin: 0;
+            padding: 0;
+            p{
+                color: black;
+                text-align: center;
+                border: 1px solid black;
+                padding: 5px;
+            }
+            
+        }
+        }
+    }
+    .asgard-3{
+        margin: 0;
+        padding: 0;
+        // border: 1px solid red;
+        .col-md-3{
+            .asgard-warriors{
+                height: 80%;
+                img{
+                    background: transparent;
+                    height: 100%;
+                    filter: grayscale(100%);
+                    // border: 1px solid red;
+                }
+                & img:hover{
+                    filter: grayscale(0%);
+                }
+
+
+            }
+        .card-body{
+            background-color: transparent !important;
+            border: 1px solid black;
+            margin: 0;
+            padding: 0;
+            p{
+                color: black;
+                text-align: center;
+                border: 1px solid black;
+                padding: 5px;
+            }
+            
+        }
+        }
+    }
+}

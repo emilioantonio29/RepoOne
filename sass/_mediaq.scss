@@ -1,0 +1,429 @@
+
+
+
+
+/******************************************************************************MEDIA QUERIES*****************************************************************************/
+/*FALTA ARREGLAR LAS MEDIAQUERIES*/
+/*PHONE*/ 
+
+@media only screen and (max-width:420px) {
+
+    #introImg{
+        img{
+            // margin-top: 100px !important;
+        }
+    }
+
+    .social-menu li .fa {/*cambia el color de las redes en mobile para que se vean*/
+        color: gold;
+      }
+      .social-menu li a {
+        background-color: black;
+    }
+
+
+    .caja-asgard{/*arregla un margen de asgard que se rompe en mobile*/
+        margin-top: 50px;
+    }
+
+    #oro .container {/*arreglo para seccion oro mobile*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5vmin;
+        overflow: hidden;
+        transform: skew(2deg);
+        width: 100%;
+        background-color: transparent;
+        margin-top: 0%;
+        padding-top: 0%;
+        z-index: 1;
+        position: static;
+        // margin-top: -400px;
+        .card {
+          flex: 1;
+          transition: all 1s ease-in-out;
+          height: 75vmin;
+          position: relative;
+          .card__head {
+            // color: black;
+            background: none;
+            padding: 10em;
+            transform: rotate(-90deg);
+            transform-origin: 0% 0%;
+            transition: all 0.5s ease-in-out;
+            min-width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 1em;
+            white-space: nowrap;
+            width: 900px !important;
+          }
+      
+          &:hover {
+            flex-grow: 8;
+            img {
+            //   filter: grayscale(0);
+            }
+            .card__head {
+            //   text-align: center;
+            //   top: calc(100% - 2em);
+            color: gold;
+            background: none;
+            //   font-size: 2em;
+            //   transform: rotate(0deg) skew(-5deg);
+            }
+          }
+          img {
+            // width: 100%;
+            // height: 100%;
+            // // object-fit: cover;
+            // transition: all 1s ease-in-out;
+            // filter: grayscale(100%);
+          }
+          &:not(:nth-child(5)) {
+            // margin: -0.2em;
+          }
+        }
+      }
+      #asgard{/*arregla titulo de video en seccion asgard */
+        .videoAsgard{
+            position: relative;
+            .videoAsgard1{
+                width: 100%;
+                video{
+                    width: 100%;
+                }
+            }
+            .text-block{
+                position: absolute;
+                // bottom: 20px;
+                // right: 20px;
+                top: 0% !important;
+                background-color: black;
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+                width: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                height: 120px !important;
+                // align-items:center;
+                // height: 100px;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                padding: 0 !important;
+                h1{
+                    display: flex;
+                    align-items:center;
+                    justify-content: center;
+                    margin-bottom: 0;
+                    height: 90px;
+                    padding-bottom: 20px !important;
+                    padding-top: 5px !important;
+                }
+            }
+        }
+    }
+    #poseidon{
+      .imgPoseidon{
+          position: relative;
+          .imgPoseidon1{
+              width: 100%;
+              img{
+                  width: 100%;
+              }
+          }
+          .text-block{
+              position: absolute;
+              // bottom: 20px;
+              // right: 20px;
+              top: 0% !important;
+              background-color: black;
+              color: white;
+              padding-left: 20px;
+              padding-right: 20px;
+              width: 100%;
+              background: rgba(0, 0, 0, 0.5);
+              height: 105px !important;
+              // height: 100px;
+              // align-items:center;
+              // height: 100px;
+              display: flex;
+              align-items:center;
+              justify-content: center;
+              h1{
+                  display: flex;
+                  align-items:center;
+                  justify-content: center;
+                  margin-bottom: 0;
+                  height: 90px;
+                  padding-bottom: 20px !important;
+                  padding-top: 5px !important;
+              }
+          }
+      }
+  }
+  
+
+  .cajaPoseidon{
+    .fontFix2{
+        font-size: 9px !important;
+        color: grey !important;
+        
+    }
+}
+#hades{
+    .cajahades{
+        height: 900px !important;
+    
+    }
+}
+// #cielo{
+//     margin-top: 500px;
+// }
+
+.video-container {
+    position: relative;
+    width: 100%;
+    // height: 200px;
+    img {
+        height: auto;
+        vertical-align: middle;
+        width: 100%;
+
+    }
+  }
+  .social-menu2{
+    // border: 1px solid blue;
+    width: 100%;
+    display: flex;
+
+  }
+  
+  
+  .social-menu2 .social-menu22 {
+    list-style: none;
+    margin: 0 5px;
+  
+  }
+  .social-menu2 .social-menu22 .fa {
+    color: #000000;
+    font-size: 12.5px;
+    line-height: 25px;
+    transition: 0.3s;
+  }
+  .social-menu2 .social-menu22 .fa:hover {
+    color: gold;
+  }
+  .social-menu2 .social-menu22 a {
+    // position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0, 0px);
+    box-shadow: 0px 3.5px 2.5px rgba(0, 0, 0, 0.5);
+  }
+  .social-menu2 .social-menu22 a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -8px);
+  }
+  .social-menu2 .social-menu22:nth-child(1) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(2) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(3) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(4) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(5) a:hover {
+    background-color: black;
+  }
+  .social-menu2 .social-menu22:nth-child(6) a:hover {
+    background-color: black;
+  }
+  .cien{
+    // border: 4px solid green;
+    width: 100%;
+    height: 130px !important;
+    background-color: gold;}
+    .cien2{
+        height: 0px !important;
+    }
+  
+  #hades{
+    height: 1000px !important;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    .assure{
+      height: 800px;
+    }
+    .container{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      .row{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        .embed-responsive{
+          border: 1px solid rgb(183, 0, 255) !important;
+          height: 250px;
+          width: 100%;
+          display: flex;
+          align-items:center;
+          justify-content: center;
+        }
+      }
+    }
+
+
+  }
+}
+
+
+
+
+/*Tablet Style*/
+
+@media only screen and (min-width:421px) and (max-width: 960px){
+
+  #hades{
+    height: 1200px !important;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    .assure{
+      height: 1000px !important;
+    }
+    .container{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      .row{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        .embed-responsive{
+          border: 1px solid rgb(183, 0, 255) !important;
+          height: 250px;
+          width: 100%;
+          display: flex;
+          align-items:center;
+          justify-content: center;
+        }
+      }
+    }
+
+
+  }
+
+    .social-menu li .fa {/*cambia el color de las redes en mobile para que se vean*/
+        color: gold;
+      }
+      .social-menu li a {
+        background-color: black;
+      }
+
+      .caja-asgard{/*arregla un margen de asgard que se rompe en mobile*/
+        margin-top: 50px;
+    }
+
+    #asgard{/*arregla titulo de video en seccion asgard */
+      .videoAsgard{
+          position: relative;
+          .videoAsgard1{
+              width: 100%;
+              video{
+                  width: 100%;
+              }
+          }
+          .text-block{
+              position: absolute;
+              // bottom: 20px;
+              // right: 20px;
+              top: 18% !important;
+              background-color: black;
+              color: white;
+              padding-left: 20px;
+              padding-right: 20px;
+              width: 100%;
+              background: rgba(0, 0, 0, 0.5);
+              height: 120px !important;
+              // align-items:center;
+              // height: 100px;
+              display: flex;
+              align-items:center;
+              justify-content: center;
+              padding: 0 !important;
+              h1{
+                  display: flex;
+                  align-items:center;
+                  justify-content: center;
+                  margin-bottom: 0;
+                  height: 90px;
+                  padding-bottom: 20px !important;
+                  padding-top: 5px !important;
+              }
+          }
+      }
+  }
+  #poseidon{
+    .imgPoseidon{
+        position: relative;
+        .imgPoseidon1{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .text-block{
+            position: absolute;
+            // bottom: 20px;
+            // right: 20px;
+            top: 18% !important;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            height: 105px !important;
+            // height: 100px;
+            // align-items:center;
+            // height: 100px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            h1{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                margin-bottom: 0;
+                height: 90px;
+                padding-bottom: 20px !important;
+                padding-top: 5px !important;
+            }
+        }
+    }
+}
+
+}
+
+/*Desktop Style*/
+
+@media only screen and (min-width:961px){
+
+
+
+}
