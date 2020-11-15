@@ -7,7 +7,12 @@ hr {
     margin: 0;
     padding: 0;
 }
-
+.last{
+    background: gold;
+    height: 2px;
+    margin: 0;
+    padding: 0;
+}
 .saint-gradient{      
     background: $gradienteFull !important;
     -webkit-text-fill-color: transparent;
@@ -60,3 +65,14 @@ hr {
     //     color: red !important;
     // }
     /*saint-titulos saint-gradient titulo-asgard*/
+
+    .claro{
+        color: $claro;
+    }
+    .oscuro{
+        color: $oscuro;
+    }
+    .cien2{
+        height: 130px;
+        background-color: gold;
+    }
