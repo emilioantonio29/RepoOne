@@ -23,6 +23,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.fixon{
+  position: static !important;
+}
+
 /******************************************************************************MENU***************************************************************************/
 
 #header{
@@ -78,7 +82,7 @@ html {
 
     img{
         width: 100%;
-        margin-top: 80px;
+        // margin-top: 80px;
         // // height: 100%;
     }
 }
